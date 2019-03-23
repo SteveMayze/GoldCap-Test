@@ -1082,4 +1082,35 @@ Text Label 6750 3900 0    50   ~ 0
 Vb
 Text Label 10450 1450 2    50   ~ 0
 Vc
+$Comp
+L Connector:Conn_01x02_Male J6
+U 1 1 5C96D99E
+P 7250 5050
+F 0 "J6" H 7356 5228 50  0000 C CNN
+F 1 "Main Pwr" H 7356 5137 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 7250 5050 50  0001 C CNN
+F 3 "~" H 7250 5050 50  0001 C CNN
+F 4 "3V3 Out" H 7100 5000 50  0000 C CNN "Comp_Name"
+	1    7250 5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 5C96DAB6
+P 6750 5250
+F 0 "#PWR020" H 6750 5000 50  0001 C CNN
+F 1 "GND" H 6755 5077 50  0000 C CNN
+F 2 "" H 6750 5250 50  0001 C CNN
+F 3 "" H 6750 5250 50  0001 C CNN
+	1    6750 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 5050 6750 5050
+Wire Wire Line
+	6750 5050 6750 5250
+Wire Wire Line
+	7050 4950 6750 4950
+Text Label 6750 4950 0    50   ~ 0
+3V3
 $EndSCHEMATC
