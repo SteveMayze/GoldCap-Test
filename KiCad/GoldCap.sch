@@ -108,7 +108,7 @@ U 1 1 5C72DA3B
 P 5550 3650
 F 0 "C4" H 5300 3700 50  0000 L CNN
 F 1 "470m 5V5" H 5100 3500 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:CP_Radial_D13.0mm_P5.00mm" H 5588 3500 50  0001 C CNN
+F 2 "GoldCap-Check:CP_Radial_D21.5mm_P5.00mm" H 5588 3500 50  0001 C CNN
 F 3 "~" H 5550 3650 50  0001 C CNN
 F 4 "GoldCap" H 5100 3600 50  0000 L CNN "Comp_Name"
 	1    5550 3650
@@ -805,12 +805,12 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG02
 U 1 1 5C7E662A
-P 1950 1500
-F 0 "#FLG02" H 1950 1575 50  0001 C CNN
-F 1 "PWR_FLAG" H 1950 1674 50  0000 C CNN
-F 2 "" H 1950 1500 50  0001 C CNN
-F 3 "~" H 1950 1500 50  0001 C CNN
-	1    1950 1500
+P 3000 1550
+F 0 "#FLG02" H 3000 1625 50  0001 C CNN
+F 1 "PWR_FLAG" H 3000 1724 50  0000 C CNN
+F 2 "" H 3000 1550 50  0001 C CNN
+F 3 "~" H 3000 1550 50  0001 C CNN
+	1    3000 1550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -885,37 +885,8 @@ F 3 "" H 13300 3950 50  0001 C CNN
 	1    13300 3950
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x02_Male J1
-U 1 1 5C83801A
-P 1300 1500
-F 0 "J1" H 1406 1678 50  0000 C CNN
-F 1 "Pwr In" H 1406 1587 50  0001 C CNN
-F 2 "GoldCap-Check:Castillation_2_2.54" H 1300 1500 50  0001 C CNN
-F 3 "~" H 1300 1500 50  0001 C CNN
-F 4 "Pwr In" H 1150 1450 50  0000 C CNN "Comp_Name"
-	1    1300 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1500 1600 1800 1600
-Wire Wire Line
-	1800 1600 1800 1900
-$Comp
-L power:GND #PWR02
-U 1 1 5C83BDF5
-P 1800 1900
-F 0 "#PWR02" H 1800 1650 50  0001 C CNN
-F 1 "GND" H 1805 1727 50  0000 C CNN
-F 2 "" H 1800 1900 50  0001 C CNN
-F 3 "" H 1800 1900 50  0001 C CNN
-	1    1800 1900
-	1    0    0    -1  
-$EndComp
-Text Label 1900 1500 2    50   ~ 0
+Text Label 2950 1550 2    50   ~ 0
 Vb
-Wire Wire Line
-	1500 1500 1950 1500
 $Comp
 L Connector:Conn_01x02_Male J2
 U 1 1 5C768EA7
@@ -1049,37 +1020,6 @@ Wire Notes Line
 	8900 5400 16050 5400
 Wire Notes Line
 	12300 5400 12300 500 
-$Comp
-L Connector:Conn_01x02_Male J3
-U 1 1 5C80F7E1
-P 7200 4000
-F 0 "J3" H 7306 4178 50  0000 C CNN
-F 1 "Main Pwr" H 7306 4087 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 7200 4000 50  0001 C CNN
-F 3 "~" H 7200 4000 50  0001 C CNN
-F 4 "Main Pwr" H 7050 3950 50  0000 C CNN "Comp_Name"
-	1    7200 4000
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7000 3900 6750 3900
-Wire Wire Line
-	7000 4000 6750 4000
-Wire Wire Line
-	6750 4000 6750 4300
-$Comp
-L power:GND #PWR011
-U 1 1 5C8180DF
-P 6750 4300
-F 0 "#PWR011" H 6750 4050 50  0001 C CNN
-F 1 "GND" H 6755 4127 50  0000 C CNN
-F 2 "" H 6750 4300 50  0001 C CNN
-F 3 "" H 6750 4300 50  0001 C CNN
-	1    6750 4300
-	1    0    0    -1  
-$EndComp
-Text Label 6750 3900 0    50   ~ 0
-Vb
 Text Label 10450 1450 2    50   ~ 0
 Vc
 $Comp
@@ -1113,4 +1053,74 @@ Wire Wire Line
 	7050 4950 6750 4950
 Text Label 6750 4950 0    50   ~ 0
 3V3
+$Comp
+L Connector:USB_B_Micro J7
+U 1 1 5C97A95C
+P 1150 1400
+F 0 "J7" H 1205 1867 50  0000 C CNN
+F 1 "~" H 1205 1867 50  0001 C CNN
+F 2 "GoldCap-Check:USB_B_2.0_Micro" H 1300 1350 50  0001 C CNN
+F 3 "http://www.produktinfo.conrad.com/datenblaetter/1400000-1499999/001401794-da-01-en-MICRO_USB_BUCHSE_SMD_ABGEW__10103594_000.pdf" H 1300 1350 50  0001 C CNN
+F 4 "10103594-0001LF" H 1150 1400 50  0001 C CNN "MPN"
+F 5 "https://www.conrad.de/de/einbaubuchse-micro-usb-typ-b-20-buchse-einbau-horizontal-usb-1-port-fci-inhalt-1-st-1401794.html" H 1150 1400 50  0001 C CNN "Link"
+F 6 "Pwr In" H 1205 1776 50  0000 C CNN "Comp_Name"
+	1    1150 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5C97F7B7
+P 1050 2000
+F 0 "#PWR0101" H 1050 1750 50  0001 C CNN
+F 1 "GND" H 1055 1827 50  0000 C CNN
+F 2 "" H 1050 2000 50  0001 C CNN
+F 3 "" H 1050 2000 50  0001 C CNN
+	1    1050 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 1800 1050 1900
+Wire Wire Line
+	1050 1900 1150 1900
+Wire Wire Line
+	1150 1900 1150 1800
+Connection ~ 1050 1900
+Wire Wire Line
+	1050 1900 1050 2000
+NoConn ~ 1450 1400
+NoConn ~ 1450 1500
+NoConn ~ 1450 1600
+Wire Wire Line
+	1450 1200 1700 1200
+Wire Wire Line
+	2550 1550 3000 1550
+$Comp
+L power:GND #PWR02
+U 1 1 5C83BDF5
+P 2850 1950
+F 0 "#PWR02" H 2850 1700 50  0001 C CNN
+F 1 "GND" H 2855 1777 50  0000 C CNN
+F 2 "" H 2850 1950 50  0001 C CNN
+F 3 "" H 2850 1950 50  0001 C CNN
+	1    2850 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1650 2850 1950
+Wire Wire Line
+	2550 1650 2850 1650
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 5C83801A
+P 2350 1550
+F 0 "J1" H 2456 1728 50  0000 C CNN
+F 1 "Pwr In" H 2456 1637 50  0001 C CNN
+F 2 "GoldCap-Check:Castillation_2_2.54" H 2350 1550 50  0001 C CNN
+F 3 "~" H 2350 1550 50  0001 C CNN
+F 4 "Pwr In" H 2200 1500 50  0000 C CNN "Comp_Name"
+	1    2350 1550
+	1    0    0    -1  
+$EndComp
+Text Label 1700 1200 2    50   ~ 0
+Vb
 $EndSCHEMATC
