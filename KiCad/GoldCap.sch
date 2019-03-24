@@ -234,7 +234,7 @@ Text Label 5850 2900 0    50   ~ 0
 Vb
 Text Label 3550 3400 0    50   ~ 0
 Vb
-Text Label 6600 2650 2    50   ~ 0
+Text Label 3800 1550 2    50   ~ 0
 Vc
 Wire Wire Line
 	12650 6750 12650 6500
@@ -279,9 +279,6 @@ Wire Wire Line
 	6350 3050 6350 2650
 Wire Wire Line
 	5550 2650 6350 2650
-Wire Wire Line
-	6350 2650 6700 2650
-Connection ~ 6350 2650
 Wire Wire Line
 	6350 3450 6700 3450
 Connection ~ 6350 3450
@@ -816,12 +813,12 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG03
 U 1 1 5C7E6F82
-P 6700 2650
-F 0 "#FLG03" H 6700 2725 50  0001 C CNN
-F 1 "PWR_FLAG" H 6700 2824 50  0000 C CNN
-F 2 "" H 6700 2650 50  0001 C CNN
-F 3 "~" H 6700 2650 50  0001 C CNN
-	1    6700 2650
+P 3650 1550
+F 0 "#FLG03" H 3650 1625 50  0001 C CNN
+F 1 "PWR_FLAG" H 3650 1724 50  0000 C CNN
+F 2 "" H 3650 1550 50  0001 C CNN
+F 3 "~" H 3650 1550 50  0001 C CNN
+	1    3650 1550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -890,31 +887,30 @@ Vb
 $Comp
 L Connector:Conn_01x02_Male J2
 U 1 1 5C768EA7
-P 7200 2750
-F 0 "J2" H 7306 2928 50  0000 C CNN
-F 1 "Pwr Out" H 7306 2837 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 7200 2750 50  0001 C CNN
-F 3 "~" H 7200 2750 50  0001 C CNN
-F 4 "Pwr Out" H 7050 2700 50  0000 C CNN "Comp_Name"
-	1    7200 2750
+P 4000 1650
+F 0 "J2" H 4106 1828 50  0000 C CNN
+F 1 "Pwr Out" H 4106 1737 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 4000 1650 50  0001 C CNN
+F 3 "~" H 4000 1650 50  0001 C CNN
+F 4 "Pwr Out" H 3850 1600 50  0000 C CNN "Comp_Name"
+	1    4000 1650
 	-1   0    0    1   
 $EndComp
-Connection ~ 6700 2650
 Wire Wire Line
-	6700 2650 7000 2650
+	3650 1550 3800 1550
 Wire Wire Line
-	7000 2750 6850 2750
+	3800 1650 3650 1650
 Wire Wire Line
-	6850 2750 6850 3000
+	3650 1650 3650 1900
 $Comp
 L power:GND #PWR012
 U 1 1 5C779A10
-P 6850 3000
-F 0 "#PWR012" H 6850 2750 50  0001 C CNN
-F 1 "GND" H 6855 2827 50  0000 C CNN
-F 2 "" H 6850 3000 50  0001 C CNN
-F 3 "" H 6850 3000 50  0001 C CNN
-	1    6850 3000
+P 3650 1900
+F 0 "#PWR012" H 3650 1650 50  0001 C CNN
+F 1 "GND" H 3655 1727 50  0000 C CNN
+F 2 "" H 3650 1900 50  0001 C CNN
+F 3 "" H 3650 1900 50  0001 C CNN
+	1    3650 1900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1025,33 +1021,33 @@ Vc
 $Comp
 L Connector:Conn_01x02_Male J6
 U 1 1 5C96D99E
-P 7250 5050
-F 0 "J6" H 7356 5228 50  0000 C CNN
-F 1 "Main Pwr" H 7356 5137 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 7250 5050 50  0001 C CNN
-F 3 "~" H 7250 5050 50  0001 C CNN
-F 4 "3V3 Out" H 7100 5000 50  0000 C CNN "Comp_Name"
-	1    7250 5050
+P 5400 1650
+F 0 "J6" H 5506 1828 50  0000 C CNN
+F 1 "Main Pwr" H 5506 1737 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5400 1650 50  0001 C CNN
+F 3 "~" H 5400 1650 50  0001 C CNN
+F 4 "3V3 Out" H 5250 1600 50  0000 C CNN "Comp_Name"
+	1    5400 1650
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR020
 U 1 1 5C96DAB6
-P 6750 5250
-F 0 "#PWR020" H 6750 5000 50  0001 C CNN
-F 1 "GND" H 6755 5077 50  0000 C CNN
-F 2 "" H 6750 5250 50  0001 C CNN
-F 3 "" H 6750 5250 50  0001 C CNN
-	1    6750 5250
+P 4900 1850
+F 0 "#PWR020" H 4900 1600 50  0001 C CNN
+F 1 "GND" H 4905 1677 50  0000 C CNN
+F 2 "" H 4900 1850 50  0001 C CNN
+F 3 "" H 4900 1850 50  0001 C CNN
+	1    4900 1850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7050 5050 6750 5050
+	5200 1650 4900 1650
 Wire Wire Line
-	6750 5050 6750 5250
+	4900 1650 4900 1850
 Wire Wire Line
-	7050 4950 6750 4950
-Text Label 6750 4950 0    50   ~ 0
+	5200 1550 4900 1550
+Text Label 4900 1550 0    50   ~ 0
 3V3
 $Comp
 L Connector:USB_B_Micro J7
@@ -1091,7 +1087,7 @@ NoConn ~ 1450 1400
 NoConn ~ 1450 1500
 NoConn ~ 1450 1600
 Wire Wire Line
-	1450 1200 1700 1200
+	1450 1200 1550 1200
 Wire Wire Line
 	2550 1550 3000 1550
 $Comp
@@ -1121,6 +1117,39 @@ F 4 "Pwr In" H 2200 1500 50  0000 C CNN "Comp_Name"
 	1    2350 1550
 	1    0    0    -1  
 $EndComp
-Text Label 1700 1200 2    50   ~ 0
+Text Label 1800 1200 2    50   ~ 0
 Vb
+Wire Wire Line
+	1550 1200 1550 1300
+Wire Wire Line
+	1550 1300 1800 1300
+Connection ~ 1550 1200
+Wire Wire Line
+	1550 1200 1800 1200
+Text Label 1800 1300 2    50   ~ 0
+Vprg
+$Comp
+L Connector:Conn_01x03_Male J3
+U 1 1 5C9C0727
+P 6900 2550
+F 0 "J3" H 7100 2800 50  0000 R CNN
+F 1 "Prog Jumper" H 7250 2350 50  0000 R CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 6900 2550 50  0001 C CNN
+F 3 "~" H 6900 2550 50  0001 C CNN
+	1    6900 2550
+	-1   0    0    -1  
+$EndComp
+Text Label 6600 2450 2    50   ~ 0
+Vprg
+Text Label 6550 2550 2    50   ~ 0
+Vc
+Wire Wire Line
+	6350 2650 6700 2650
+Connection ~ 6350 2650
+Wire Wire Line
+	6550 2550 6700 2550
+Wire Wire Line
+	6700 2450 6600 2450
+Text Label 6550 2650 2    50   ~ 0
+Vg
 $EndSCHEMATC
