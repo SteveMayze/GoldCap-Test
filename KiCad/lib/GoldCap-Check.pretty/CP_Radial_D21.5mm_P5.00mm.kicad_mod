@@ -1,4 +1,4 @@
-(module CP_Radial_D21.5mm_P5.00mm (layer F.Cu) (tedit 5C977EE9)
+(module CP_Radial_D21.5mm_P5.00mm (layer F.Cu) (tedit 5D0B9414)
   (descr "CP, Radial series, Radial, pin pitch=5.00mm, , diameter=13mm, Electrolytic Capacitor")
   (tags "CP Radial series Radial pin pitch 5.00mm  diameter 13mm Electrolytic Capacitor")
   (fp_text reference REF** (at -6.2 -9.87) (layer F.SilkS)
@@ -27,8 +27,8 @@
   (fp_circle (center 2.54 0) (end 13.54 0) (layer F.CrtYd) (width 0.01))
   (pad 2 thru_hole circle (at 5 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at 0 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Capacitors_THT.3dshapes/CP_Radial_D13.0mm_P5.00mm.wrl
-    (at (xyz 0 0 0))
+  (model D:/pcbs/GoldCap/doc/3D/EECF5R5U474.stp
+    (offset (xyz 2.5 0 2.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
