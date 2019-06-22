@@ -29,3 +29,8 @@ _autosave-*
 *.gbr
 gerber*/
 Gerber*/
+*.zip
+
+
+*/.vs
+*/Debug
