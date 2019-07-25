@@ -105,8 +105,6 @@ F 3 "" H 5850 4050 50  0001 C CNN
 	1    5850 4050
 	1    0    0    -1  
 $EndComp
-Text Label 5850 2900 0    50   ~ 0
-Vb
 Text Label 3750 1550 0    50   ~ 0
 Vout_3v3
 Wire Wire Line
@@ -1867,4 +1865,6 @@ Wire Wire Line
 	8600 4550 9200 4550
 Text Label 9200 4550 2    50   ~ 0
 Vio_3V3
+Text Label 5850 2900 0    50   ~ 0
+Vin_5V
 $EndSCHEMATC

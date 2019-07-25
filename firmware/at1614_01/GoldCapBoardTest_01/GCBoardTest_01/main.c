@@ -13,10 +13,10 @@
 int main(void)
 {
     /* Replace with your application code */
-	PORTA.DIRSET = 0b11111111;
+	PORTA.DIRSET = 0b00000010;
     while (1) 
     {
-		PORTA.OUTTGL = 0b11111111;
+		PORTA.OUTTGL = 0b00000010;
 		_delay_ms( 10000 );
 
     }
