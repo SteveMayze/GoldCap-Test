@@ -1867,4 +1867,16 @@ Text Label 9200 4550 2    50   ~ 0
 Vio_3V3
 Text Label 5850 2900 0    50   ~ 0
 Vin_5V
+Text Notes 1550 2400 0    50   ~ 0
+4.96V
+Text Notes 3200 2550 0    50   ~ 0
+3.287V
+Text Notes 6000 2600 0    50   ~ 0
+3.285V
+Text Notes 5800 2800 0    50   ~ 0
+4.96V
+Text Notes 6100 3550 0    50   ~ 0
+1.84V
+Text Notes 7100 3450 0    50   ~ 0
+1.84V
 $EndSCHEMATC
