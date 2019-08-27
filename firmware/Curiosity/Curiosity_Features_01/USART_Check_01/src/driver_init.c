@@ -63,6 +63,59 @@ void USART_0_initialization(void)
 	USART_0_init();
 }
 
+/* configure the pins and initialize the registers */
+void USART_1_initialization(void)
+{
+
+	// Set pin direction to input
+	PA2_set_dir(PORT_DIR_IN);
+
+	PA2_set_pull_mode(
+	// <y> Pull configuration
+	// <id> pad_pull_config
+	// <PORT_PULL_OFF"> Off
+	// <PORT_PULL_UP"> Pull-up
+	PORT_PULL_OFF);
+
+	/* set the alternate pin mux */
+	PORTMUX.CTRLB |= PORTMUX_USART0_bm;
+
+	// Set pin direction to output
+	PA1_set_dir(PORT_DIR_OUT);
+
+	PA1_set_level(
+	// <y> Initial level
+	// <id> pad_initial_level
+	// <false"> Low
+	// <true"> High
+	false);
+
+	/* set the alternate pin mux */
+	PORTMUX.CTRLB |= PORTMUX_USART0_bm;
+
+	USART_0_init();
+}
+
+/* configure the pins and initialize the registers */
+void USART_0_pins_enable(void)
+{
+	/* set the alternate pin mux */
+	PORTMUX.CTRLB &= ~(PORTMUX_USART0_bm);
+	USART_0_init();
+
+}
+
+/* configure the pins and initialize the registers */
+void USART_1_pins_enable(void)
+{
+	/* set the alternate pin mux */
+	PORTMUX.CTRLB |= PORTMUX_USART0_bm;
+	USART_0_init();
+
+}
+
+
+
 /**
  * \brief System initialization
  */

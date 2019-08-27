@@ -32,8 +32,6 @@
 
 volatile bool         ADC_0_complete_isr_executed = false;
 volatile bool         ADC_0_window_isr_executed   = false;
-volatile adc_result_t ADC_0_measurement;
-volatile uint8_t      ADC_0_measurement_normalized;
 
 void ADC_0_adc_complete_cb(void)
 {
@@ -64,7 +62,6 @@ uint8_t ADC_0_test_adc_window(void)
 	ADC_0_set_window_mode(adc_window_disabled);
 
 	ENABLE_INTERRUPTS();
-
 	// Get conversion from specified ADC channel
 	ADC_0_start_conversion(0);
 
@@ -72,8 +69,9 @@ uint8_t ADC_0_test_adc_window(void)
 	while (!ADC_0_complete_isr_executed)
 		;
 
-	// Test window conversion mode
 
+	// Test window conversion mode
+/**
 	// Hookup ADC window callback routine
 	ADC_0_register_window_callback(ADC_0_adc_window_cb);
 
@@ -91,6 +89,6 @@ uint8_t ADC_0_test_adc_window(void)
 	// Wait for ISR to be executed,
 	while (!ADC_0_window_isr_executed)
 		;
-
+		*/
 	return 1;
 }

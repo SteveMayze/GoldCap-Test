@@ -28,6 +28,9 @@
 #ifndef ADC_WINDOW_EXAMPLE_H
 #define ADC_WINDOW_EXAMPLE_H
 
+volatile adc_result_t ADC_0_measurement;
+volatile uint8_t      ADC_0_measurement_normalized;
+
 uint8_t ADC_0_test_adc_window(void);
 
 #endif /* ADC_WINDOW_EXAMPLE_H */

@@ -4,6 +4,7 @@
 #include <usart_basic.h>
 #include <string.h>
 //#include <usart_basic_example.h>
+// #include <main.h>
 
 
 // volatile uint8_t msg[31] = {0x7E, 0x00, 0x1A, 0x10, 0x01, 0x00, 0x7D, 0x33, 0xA2, 0x00,
@@ -19,6 +20,20 @@ volatile uint8_t msg[33] = { 0x7E, 0x00, 0x1C, 0x10, 0x01, 0x00, 0x7D, 0x33, 0xA
 
 static uint8_t buf[65];
 
+#define MESSAGE = "Message ";
+
+
+
+void write_to_alt(char* msg){
+	_delay_ms(100);
+	USART_1_pins_enable();
+	_delay_ms(100);
+	printf("%s", msg);
+	_delay_ms(100);
+	USART_0_pins_enable();
+	_delay_ms(100);
+}
+
 int main(void)
 {
 	/* Initializes MCU, drivers and middle ware */
@@ -29,7 +44,19 @@ int main(void)
 	uint8_t idx = 0;
 	bool cmd_ready = false;
 	LED0_set_level(true);
+
+	//USART_1_initialization();
+	//USART_0_pins_enable();
+
+// 	XBEE_Data_Frame.start_delimiter = XBEE_START_DELIMITER;
+// 
+// 	uint16_t count = 1;
+
 	while (1) {
+// 		sprintf(XBEE_Data_Frame.frame_data.data, "Message: %d", count);
+// 		XBEE_Data_Frame.frame_data.api_frame_type = XBEE_TRANSMIT_REQUEST;
+// 		XBEE_Data_Frame.length = sizeof(XBEE_Data_Frame_struct.frame_data.data);
+
 
 		if( !SW0_get_level()) {
 			for(uint8_t i=0; i< sizeof(msg); i++){
@@ -58,7 +85,7 @@ int main(void)
 				// LED0_toggle_level();
 			}
 			cmd_ready = true;
-			LED0_toggle_level(true);
+			LED0_set_level(true);
 		}
 		if( cmd_ready ) { // We have something to look at.
 			if( strncmp("on", (char *)buf, strlen("on")) == 0 ){
@@ -83,7 +110,7 @@ int main(void)
 // 					while( !USART_0_is_tx_ready()) {;}
 // 					USART_0_write( buf[i] );
 // 				}
-				// printf("message: %s\n", (char *)buf);
+				//write_to_alt((char *)buf);
 			}
 			cmd_ready = false;
 			_delay_ms(1000);

@@ -54,6 +54,10 @@ extern "C" {
 #endif
 
 void system_init(void);
+void USART_0_initialization(void);
+void USART_1_initialization(void);
+void USART_0_pins_enable(void);
+void USART_1_pins_enable(void);
 
 #ifdef __cplusplus
 }

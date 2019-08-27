@@ -26,15 +26,27 @@
 #define XBEE_NODE_IDENTIFICATION_INDICATOR 0x95
 #define XBEE_REMOTE_COMMAND_RESPONSE 0x97
 
+#ifndef XBEE_MAX_RFPAYLOAD
+	#if XBEE_CELLULAR_ENABLED
+		#define XBEE_MAX_RFPAYLOAD 1500
+	#elif XBEE_WIFI_ENABLED
+		#define XBEE_MAX_RFPAYLOAD 1400
+	#else
+		#define XBEE_MAX_RFPAYLOAD 256
+	#endif
+#endif
+
+#define XBEE_MAX_RX_FRAME_LEN		(XBEE_MAX_RFPAYLOAD + 18)
+#define XBEE_MAX_TX_FRAME_LEN		(XBEE_MAX_RFPAYLOAD + 20)
 
 typedef struct {
 	uint8_t api_frame_type;
-	uint8_t *data;
+	uint8_t data[XBEE_MAX_RX_FRAME_LEN];
 
 } XBEE_Frame_Data_struct;
 
 typedef struct {
-	uint8_t start_delimiter = XBEE_START_DELIMITER;
+	uint8_t start_delimiter;
 	uint16_t length;
 	XBEE_Frame_Data_struct frame_data;
 	uint8_t checksum;

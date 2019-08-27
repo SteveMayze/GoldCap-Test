@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "USART_Check_01", "USART_Check_01\USART_Check_01.cproj", "{DCE6C7E3-EE26-4D79-826B-08594B9AD897}"
 EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "USART_Check_02", "USART_Check_02\USART_Check_02.cproj", "{27A7D90F-FAD5-4AE5-88B1-DDE321D87400}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "USART_Check_02b", "USART_Check_02b\USART_Check_02b.cproj", "{F5BCF160-8B61-4DC4-B411-E47C151CAC05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -15,6 +19,14 @@ Global
 		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.Build.0 = Debug|AVR
 		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.ActiveCfg = Release|AVR
 		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.Build.0 = Release|AVR
+		{27A7D90F-FAD5-4AE5-88B1-DDE321D87400}.Debug|AVR.ActiveCfg = Debug|AVR
+		{27A7D90F-FAD5-4AE5-88B1-DDE321D87400}.Debug|AVR.Build.0 = Debug|AVR
+		{27A7D90F-FAD5-4AE5-88B1-DDE321D87400}.Release|AVR.ActiveCfg = Release|AVR
+		{27A7D90F-FAD5-4AE5-88B1-DDE321D87400}.Release|AVR.Build.0 = Release|AVR
+		{F5BCF160-8B61-4DC4-B411-E47C151CAC05}.Debug|AVR.ActiveCfg = Debug|AVR
+		{F5BCF160-8B61-4DC4-B411-E47C151CAC05}.Debug|AVR.Build.0 = Debug|AVR
+		{F5BCF160-8B61-4DC4-B411-E47C151CAC05}.Release|AVR.ActiveCfg = Release|AVR
+		{F5BCF160-8B61-4DC4-B411-E47C151CAC05}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
