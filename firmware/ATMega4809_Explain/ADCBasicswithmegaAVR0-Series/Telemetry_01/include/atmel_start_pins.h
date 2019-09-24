@@ -197,6 +197,192 @@ static inline bool PA1_get_level()
 }
 
 /**
+ * \brief Set USART0_RTS pull mode
+ *
+ * Configure pin to pull up, down or disable pull mode, supported pull
+ * modes are defined by device used
+ *
+ * \param[in] pull_mode Pin pull mode
+ */
+static inline void USART0_RTS_set_pull_mode(const enum port_pull_mode pull_mode)
+{
+	PORTA_set_pin_pull_mode(2, pull_mode);
+}
+
+/**
+ * \brief Set USART0_RTS data direction
+ *
+ * Select if the pin data direction is input, output or disabled.
+ * If disabled state is not possible, this function throws an assert.
+ *
+ * \param[in] direction PORT_DIR_IN  = Data direction in
+ *                      PORT_DIR_OUT = Data direction out
+ *                      PORT_DIR_OFF = Disables the pin
+ *                      (low power state)
+ */
+static inline void USART0_RTS_set_dir(const enum port_dir dir)
+{
+	PORTA_set_pin_dir(2, dir);
+}
+
+/**
+ * \brief Set USART0_RTS input/sense configuration
+ *
+ * Enable/disable USART0_RTS digital input buffer and pin change interrupt,
+ * select pin interrupt edge/level sensing mode
+ *
+ * \param[in] isc PORT_ISC_INTDISABLE_gc    = Iterrupt disabled but input buffer enabled
+ *                PORT_ISC_BOTHEDGES_gc     = Sense Both Edges
+ *                PORT_ISC_RISING_gc        = Sense Rising Edge
+ *                PORT_ISC_FALLING_gc       = Sense Falling Edge
+ *                PORT_ISC_INPUT_DISABLE_gc = Digital Input Buffer disabled
+ *                PORT_ISC_LEVEL_gc         = Sense low Level
+ */
+static inline void USART0_RTS_set_isc(const PORT_ISC_t isc)
+{
+	PORTA_pin_set_isc(2, isc);
+}
+
+/**
+ * \brief Set USART0_RTS inverted mode
+ *
+ * Enable or disable inverted I/O on a pin
+ *
+ * \param[in] inverted true  = I/O on USART0_RTS is inverted
+ *                     false = I/O on USART0_RTS is not inverted
+ */
+static inline void USART0_RTS_set_inverted(const bool inverted)
+{
+	PORTA_pin_set_inverted(2, inverted);
+}
+
+/**
+ * \brief Set USART0_RTS level
+ *
+ * Sets output level on a pin
+ *
+ * \param[in] level true  = Pin level set to "high" state
+ *                  false = Pin level set to "low" state
+ */
+static inline void USART0_RTS_set_level(const bool level)
+{
+	PORTA_set_pin_level(2, level);
+}
+
+/**
+ * \brief Toggle output level on USART0_RTS
+ *
+ * Toggle the pin level
+ */
+static inline void USART0_RTS_toggle_level()
+{
+	PORTA_toggle_pin_level(2);
+}
+
+/**
+ * \brief Get level on USART0_RTS
+ *
+ * Reads the level on a pin
+ */
+static inline bool USART0_RTS_get_level()
+{
+	return PORTA_get_pin_level(2);
+}
+
+/**
+ * \brief Set USART0_CTS pull mode
+ *
+ * Configure pin to pull up, down or disable pull mode, supported pull
+ * modes are defined by device used
+ *
+ * \param[in] pull_mode Pin pull mode
+ */
+static inline void USART0_CTS_set_pull_mode(const enum port_pull_mode pull_mode)
+{
+	PORTA_set_pin_pull_mode(3, pull_mode);
+}
+
+/**
+ * \brief Set USART0_CTS data direction
+ *
+ * Select if the pin data direction is input, output or disabled.
+ * If disabled state is not possible, this function throws an assert.
+ *
+ * \param[in] direction PORT_DIR_IN  = Data direction in
+ *                      PORT_DIR_OUT = Data direction out
+ *                      PORT_DIR_OFF = Disables the pin
+ *                      (low power state)
+ */
+static inline void USART0_CTS_set_dir(const enum port_dir dir)
+{
+	PORTA_set_pin_dir(3, dir);
+}
+
+/**
+ * \brief Set USART0_CTS input/sense configuration
+ *
+ * Enable/disable USART0_CTS digital input buffer and pin change interrupt,
+ * select pin interrupt edge/level sensing mode
+ *
+ * \param[in] isc PORT_ISC_INTDISABLE_gc    = Iterrupt disabled but input buffer enabled
+ *                PORT_ISC_BOTHEDGES_gc     = Sense Both Edges
+ *                PORT_ISC_RISING_gc        = Sense Rising Edge
+ *                PORT_ISC_FALLING_gc       = Sense Falling Edge
+ *                PORT_ISC_INPUT_DISABLE_gc = Digital Input Buffer disabled
+ *                PORT_ISC_LEVEL_gc         = Sense low Level
+ */
+static inline void USART0_CTS_set_isc(const PORT_ISC_t isc)
+{
+	PORTA_pin_set_isc(3, isc);
+}
+
+/**
+ * \brief Set USART0_CTS inverted mode
+ *
+ * Enable or disable inverted I/O on a pin
+ *
+ * \param[in] inverted true  = I/O on USART0_CTS is inverted
+ *                     false = I/O on USART0_CTS is not inverted
+ */
+static inline void USART0_CTS_set_inverted(const bool inverted)
+{
+	PORTA_pin_set_inverted(3, inverted);
+}
+
+/**
+ * \brief Set USART0_CTS level
+ *
+ * Sets output level on a pin
+ *
+ * \param[in] level true  = Pin level set to "high" state
+ *                  false = Pin level set to "low" state
+ */
+static inline void USART0_CTS_set_level(const bool level)
+{
+	PORTA_set_pin_level(3, level);
+}
+
+/**
+ * \brief Toggle output level on USART0_CTS
+ *
+ * Toggle the pin level
+ */
+static inline void USART0_CTS_toggle_level()
+{
+	PORTA_toggle_pin_level(3);
+}
+
+/**
+ * \brief Get level on USART0_CTS
+ *
+ * Reads the level on a pin
+ */
+static inline bool USART0_CTS_get_level()
+{
+	return PORTA_get_pin_level(3);
+}
+
+/**
  * \brief Set LED0 pull mode
  *
  * Configure pin to pull up, down or disable pull mode, supported pull

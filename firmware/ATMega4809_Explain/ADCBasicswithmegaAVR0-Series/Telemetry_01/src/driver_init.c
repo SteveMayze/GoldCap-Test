@@ -115,6 +115,30 @@ void system_init()
 {
 	mcu_init();
 
+	/* PORT setting on PA2 */
+
+	// Set pin direction to output
+	USART0_RTS_set_dir(PORT_DIR_OUT);
+
+	USART0_RTS_set_level(
+	    // <y> Initial level
+	    // <id> pad_initial_level
+	    // <false"> Low
+	    // <true"> High
+	    false);
+
+	/* PORT setting on PA3 */
+
+	// Set pin direction to input
+	USART0_CTS_set_dir(PORT_DIR_IN);
+
+	USART0_CTS_set_pull_mode(
+	    // <y> Pull configuration
+	    // <id> pad_pull_config
+	    // <PORT_PULL_OFF"> Off
+	    // <PORT_PULL_UP"> Pull-up
+	    PORT_PULL_OFF);
+
 	/* PORT setting on PB5 */
 
 	// Set pin direction to output

@@ -390,6 +390,19 @@ pads:
     mode: Digital input
     user_label: PA1
     configuration: null
+  USART0_RTS:
+    name: PA2
+    definition: Atmel:ATmega4809_drivers:1.0.0::ATmega4809-MFR::pad::PA2
+    mode: Digital output
+    user_label: USART0_RTS
+    configuration:
+      pad_initial_level: Low
+  USART0_CTS:
+    name: PA3
+    definition: Atmel:ATmega4809_drivers:1.0.0::ATmega4809-MFR::pad::PA3
+    mode: Digital input
+    user_label: USART0_CTS
+    configuration: null
 toolchain_options:
 - definition:
     identifier: Atmel:ATmega4809_drivers:1.0.0::ATmega4809-MFR::environment_definition::All:Atmel.Studio:7.0.0

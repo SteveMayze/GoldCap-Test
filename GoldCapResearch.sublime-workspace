@@ -380,9 +380,7 @@
 		"/D/pcbs/GoldCap/firmware",
 		"/D/pcbs/GoldCap/firmware/Curiosity",
 		"/D/pcbs/GoldCap/firmware/Curiosity/Curiosity_Features_01",
-		"/D/pcbs/GoldCap/firmware/Curiosity/Curiosity_Features_01/USART_Check_01",
-		"/D/pcbs/GoldCap/firmware/Curiosity/Curiosity_Features_01/USART_Check_01/examples",
-		"/D/pcbs/GoldCap/firmware/Curiosity/Curiosity_Features_01/USART_Check_01/examples/src"
+		"/D/pcbs/GoldCap/firmware/Curiosity/Curiosity_Features_01/USART_Check_01"
 	],
 	"file_history":
 	[
@@ -539,7 +537,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -555,8 +553,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								44,
+								25
 							]
 						],
 						"settings":
@@ -565,10 +563,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 756.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -593,10 +591,10 @@
 							"syntax": "Packages/C++/C.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 378.0,
+						"translation.y": 486.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

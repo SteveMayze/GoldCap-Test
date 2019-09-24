@@ -64,7 +64,7 @@ void adc_init()
 void usart_put_string(const char str[], const uint8_t STR_LEN)
 {
 	for (int i = 0; i < STR_LEN; i++) {
-		USART_1_write(str[i]);
+			USART_1_write(str[i]);
 	}
 }
 
@@ -104,16 +104,16 @@ int main(void)
 
 			// Send a message to XBEE
 			for(uint8_t i=0; i< sizeof(msg); i++){
-				while( !USART_0_is_tx_ready()) {;}
+				while( !USART_0_is_tx_ready() && USART0_CTS_get_level()) {;}
 				USART_0_write( msg[i] );
 			}
 			_delay_ms(1000);
 
 		}
 		// Wait for the response
+		idx = 0;
 		if( USART_0_is_rx_ready()){
 			memset(buf, 0, sizeof(buf));
-			idx = 0;
 			while( USART_0_is_rx_ready() ){ // Something in the buffer
 				buf[idx] = USART_0_read();
 				idx++;
@@ -122,7 +122,9 @@ int main(void)
 				break;
 			}
 			// Display the received buffer
-			usart_put_string((char*)buf, sizeof(buf));
+			if ( idx > 0 ) {
+				usart_put_string((char*)buf, idx);
+			}
 		}
 	}
 }
