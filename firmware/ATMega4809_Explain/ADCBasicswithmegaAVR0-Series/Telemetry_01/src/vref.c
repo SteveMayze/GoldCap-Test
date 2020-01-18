@@ -43,8 +43,8 @@
 int8_t VREF_0_init()
 {
 
-	VREF_CTRLA = VREF_AC0REFSEL_2V5_gc     /* Voltage reference at 2.5V */
-	             | VREF_ADC0REFSEL_2V5_gc; /* Voltage reference at 2.5V */
+	VREF_CTRLA = VREF_AC0REFSEL_4V34_gc     /* Voltage reference at 4.34V */
+	             | VREF_ADC0REFSEL_4V34_gc; /* Voltage reference at 4.34V */
 
 	VREF_CTRLB = 1 << VREF_ADC0REFEN_bp   /* ADC0 reference enable: enabled */
 	             | 0 << VREF_AC0REFEN_bp; /* AC0 DACREF reference enable: disabled */

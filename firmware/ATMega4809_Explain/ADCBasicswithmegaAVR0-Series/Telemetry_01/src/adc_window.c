@@ -74,13 +74,13 @@ int8_t ADC_0_init()
 	ADC0.INTCTRL = 0 << ADC_RESRDY_bp  /* Result Ready Interrupt Enable: disabled */
 	               | 1 << ADC_WCMP_bp; /* Window Comparator Interrupt Enable: enabled */
 
-	// ADC0.MUXPOS = ADC_MUXPOS_AIN0_gc; /* ADC input pin 0 */
+	ADC0.MUXPOS = ADC_MUXPOS_AIN6_gc; /* ADC input pin 6 */
 
 	// ADC0.SAMPCTRL = 0x0 << ADC_SAMPLEN_gp; /* Sample length: 0x0 */
 
 	// ADC0.WINHT = 0x0; /* Window Comparator High Threshold: 0x0 */
 
-	ADC0.WINLT = 0x3c; /* Window Comparator Low Threshold: 0x3c */
+	ADC0.WINLT = 0x3ff; /* Window Comparator Low Threshold: 0x1ff */
 
 	ADC0.CTRLA = 1 << ADC_ENABLE_bp     /* ADC Enable: enabled */
 	             | 0 << ADC_FREERUN_bp  /* ADC Freerun mode: disabled */

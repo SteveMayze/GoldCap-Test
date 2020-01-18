@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="61.2mm"
+   height="101.19999999999999mm"
+   viewBox="0 0 61.2 101.19999999999999"
+   version="1.1"
+   id="svg243"
+   sodipodi:docname="ATmega4809_Xplained_Pro_release_rev8_p_pcb.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata249">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs247" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="958"
+     inkscape:window-height="1128"
+     id="namedview245"
+     showgrid="false"
+     inkscape:zoom="1.2340251"
+     inkscape:cx="102.70945"
+     inkscape:cy="258.01466"
+     inkscape:window-x="-7"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="copper1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="copper1">
+    <g
+       id="copper1"
+       inkscape:label="#copper1">
+      <g
+         id="g49076">
+        <circle
+           id="connector520pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-96.169998"
+           cx="19.17"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector518pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-96.169998"
+           cx="21.710001"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector512pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-96.169998"
+           cx="29.33"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector516pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-96.169998"
+           cx="24.249998"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector514pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-96.169998"
+           cx="26.789999"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector108pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-77.590302"
+           cx="19.169809"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector106pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-72.5103"
+           cx="19.169809"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector107pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-75.050301"
+           cx="19.169809"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector515pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-93.629997"
+           cx="24.249998"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector513pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-93.629997"
+           cx="26.789999"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector519pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-93.629997"
+           cx="19.17"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector517pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-93.629997"
+           cx="21.710001"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector510pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-96.169998"
+           cx="31.869999"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector511pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-93.629997"
+           cx="29.33"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector509pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-93.629997"
+           cx="31.869999"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector504pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-96.169998"
+           cx="39.489998"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector502pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-96.169998"
+           cx="42.029999"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector508pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-96.169998"
+           cx="34.41"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector506pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-96.169998"
+           cx="36.949997"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector503pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-93.629997"
+           cx="39.489998"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector507pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-93.629997"
+           cx="34.41"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector505pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-93.629997"
+           cx="36.949997"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector208pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-77.590302"
+           cx="42.029808"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector501pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-93.629997"
+           cx="42.029999"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector206pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-72.5103"
+           cx="42.029808"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector207pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-75.050301"
+           cx="42.029808"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector702pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-69.970291"
+           cx="6.4698043"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector701pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-67.43029"
+           cx="6.4698043"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector802pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-69.970291"
+           cx="11.549803"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector105pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-69.970299"
+           cx="19.169809"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector801pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-67.43029"
+           cx="11.549803"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector104pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-67.430298"
+           cx="19.169809"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector103pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-64.890297"
+           cx="19.169809"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector101pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-59.810299"
+           cx="19.169809"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector102pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-62.3503"
+           cx="19.169809"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector901pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-13.729329"
+           cx="35.496742"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector601pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-11.549999"
+           cx="19.33"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector602pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-11.549999"
+           cx="21.870001"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector204pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-67.430298"
+           cx="42.029808"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector902pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-13.729329"
+           cx="38.036743"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           inkscape:label="#connector203pad"
+           id="connector203pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-64.890297"
+           cx="42.029808"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector202pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-62.3503"
+           cx="42.029808"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector205pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-69.970299"
+           cx="42.029808"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector201pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-59.810299"
+           cx="42.029808"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector1109pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.32500061"
+           cy="-22.34"
+           cx="52.360001"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector903pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-13.729329"
+           cx="40.576744"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector413pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-80.129997"
+           cx="53.630001"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector409pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-75.050003"
+           cx="53.630001"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector411pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-77.589996"
+           cx="53.630001"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector419pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-87.75"
+           cx="53.630001"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector415pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-82.669998"
+           cx="53.630001"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector417pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-85.209999"
+           cx="53.630001"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="circle138"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-52.189999"
+           cx="53.630001"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector315pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-47.110001"
+           cx="53.630001"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector317pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-49.649998"
+           cx="53.630001"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector405pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-69.970001"
+           cx="53.630001"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="circle146"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-72.510002"
+           cx="53.630001"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="circle148"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-64.889999"
+           cx="53.630001"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector403pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-67.43"
+           cx="53.630001"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector414pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-80.129997"
+           cx="56.170002"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector410pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-75.050003"
+           cx="56.170002"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector412pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-77.589996"
+           cx="56.170002"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector420pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-87.75"
+           cx="56.170002"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector416pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-82.669998"
+           cx="56.170002"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector418pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-85.209999"
+           cx="56.170002"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector320pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-52.189999"
+           cx="56.170002"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector316pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-47.110001"
+           cx="56.170002"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector318pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-49.649998"
+           cx="56.170002"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector406pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-69.970001"
+           cx="56.170002"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector408pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-72.510002"
+           cx="56.170002"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector402pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-64.889999"
+           cx="56.170002"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector404pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-67.43"
+           cx="56.170002"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector305pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-34.41"
+           cx="53.630001"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector301pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-29.330002"
+           cx="53.630001"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector303pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-31.870001"
+           cx="53.630001"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector311pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-42.029999"
+           cx="53.630001"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector313pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-44.57"
+           cx="53.630001"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector307pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-36.950001"
+           cx="53.630001"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector309pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-39.489998"
+           cx="53.630001"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector1110pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.32500061"
+           cy="-23.610001"
+           cx="52.360001"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector1001pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-14.089999"
+           cx="53.630001"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector1003pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-16.629999"
+           cx="53.630001"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector1108pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.32500061"
+           cy="-23.610001"
+           cx="53.630001"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector1106pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.32500061"
+           cy="-23.610001"
+           cx="54.900002"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector1107pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.32500061"
+           cy="-22.34"
+           cx="53.630001"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector1105pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.32500061"
+           cy="-22.34"
+           cx="54.900002"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector306pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-34.41"
+           cx="56.170002"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector302pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-29.330002"
+           cx="56.170002"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector304pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-31.870001"
+           cx="56.170002"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector312pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-42.029999"
+           cx="56.170002"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector314pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-44.57"
+           cx="56.170002"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector308pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-36.950001"
+           cx="56.170002"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector310pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-39.489998"
+           cx="56.170002"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector1103pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.32500061"
+           cy="-22.34"
+           cx="56.170002"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector1002pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-14.089999"
+           cx="56.170002"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector1004pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.50999898"
+           cy="-16.629999"
+           cx="56.170002"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector1104pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.32500061"
+           cy="-23.610001"
+           cx="56.170002"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector1102pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.32500061"
+           cy="-23.610001"
+           cx="57.440002"
+           transform="scale(0.99999999,-0.99999999)" />
+        <circle
+           id="connector1101pad"
+           style="fill:#ffffff;stroke:#f7bd13;stroke-width:0.35004374;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           r="0.32500061"
+           cy="-22.34"
+           cx="57.440002"
+           transform="scale(0.99999999,-0.99999999)" />
+      </g>
+    </g>
+  </g>
+</svg>

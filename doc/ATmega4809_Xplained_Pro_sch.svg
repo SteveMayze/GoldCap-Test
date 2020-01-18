@@ -1,0 +1,1885 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.2"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="122.0889"
+   height="212.22534"
+   viewBox="0 0 122.0889 212.22535"
+   xml:space="preserve"
+   sodipodi:docname="ATmega4809_Xplained_Pro_sch.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   id="metadata10966"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
+   id="defs10964" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="716"
+   inkscape:window-height="992"
+   id="namedview10962"
+   showgrid="false"
+   inkscape:zoom="2.0476882"
+   inkscape:cx="27.316413"
+   inkscape:cy="55.985123"
+   inkscape:window-x="1913"
+   inkscape:window-y="0"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="schematic"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0" />
+<g
+   id="schematic"
+   transform="translate(-0.1387929,-14.4)">
+	
+		<rect
+   x="14.85"
+   y="14.85"
+   width="92.73307"
+   height="197.10001"
+   id="rect10821"
+   style="fill:#ffffff;stroke:#000000;stroke-width:0.89999998;stroke-linecap:round" />
+	
+		<line
+   id="connector301pin"
+   x1="107.44633"
+   y1="18.357937"
+   x2="121.84731"
+   y2="18.357937"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round" />
+	<text
+   font-size="3.5"
+   id="text10824"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   x="95.268654"
+   y="19.873638">ID</text>
+
+
+	
+	
+		
+	
+	
+	
+		
+	
+	
+	
+		
+	<text
+   transform="translate(62.0464,51.1001)"
+   font-size="3.5"
+   id="text10836"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c" />
+
+
+	
+	
+		
+	
+	
+	
+	
+		
+	
+	
+		
+	
+	
+	
+		
+	
+	
+	
+		
+	
+	
+	
+		
+	
+	
+	
+	
+	
+		
+	
+	
+	
+	
+	
+		
+	
+	
+	
+	
+	
+		
+	
+	
+	
+		
+	
+	
+	
+		<line
+   id="connector101pin"
+   x1="0.51919544"
+   y1="28.799999"
+   x2="14.919194"
+   y2="28.799999"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round" />
+	<text
+   font-size="3.5"
+   id="text10888"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   transform="translate(16.1504,29.5005)">AN/PD6</text>
+
+
+	
+	<rect
+   id="connector101terminal"
+   x="0.1387929"
+   y="28.450001"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" />
+	
+		
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+		
+	
+	
+		
+	
+	
+		
+	
+	
+	
+		
+	
+	
+	
+		
+	
+	
+	
+		
+	
+	
+	
+		
+	
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	
+		
+	
+	
+		
+	
+	
+	
+		
+	
+	<text
+   id="label"
+   font-size="4.25"
+   style="font-size:4.25px;font-family:DroidSans;fill:#000000;fill-opacity:1"
+   x="43.337048"
+   y="100.36224"><tspan
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1"
+     id="tspan11511">ATMEGA Xplained</tspan></text>
+
+
+	<text
+   id="label_1_"
+   transform="translate(41.7441,73.7837)"
+   font-size="4.25"
+   style="font-size:4.25px;font-family:DroidSans"><tspan
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
+     id="tspan11513" /></text>
+
+
+	
+<text
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text11522"
+   font-size="3.5"
+   x="99.36985"
+   y="22.779707">GND</text>
+
+<text
+   y="28.0229"
+   x="95.068703"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text11524"
+   font-size="3.5">PD2</text>
+
+<text
+   y="31.495258"
+   x="100.38499"
+   font-size="3.5"
+   id="text11526"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c">PD3</text>
+
+<text
+   y="37.304733"
+   x="95.068703"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text11528"
+   font-size="3.5">PA2</text>
+
+<text
+   y="40.210808"
+   x="100.78831"
+   font-size="3.5"
+   id="text11530"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c">PA3</text>
+
+<text
+   font-size="3.5"
+   id="text11532"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   x="95.068703"
+   y="45.567253">PC4</text>
+
+<text
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text11534"
+   font-size="3.5"
+   x="100.68577"
+   y="49.379383">PC5</text>
+
+<line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="21.309629"
+   x2="121.84732"
+   y1="21.309629"
+   x1="107.44633"
+   id="connector302pin" /><line
+   id="connector303pin"
+   x1="107.44633"
+   y1="27.205198"
+   x2="121.84734"
+   y2="27.205198"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="30.152981"
+   x2="121.84734"
+   y1="30.152981"
+   x1="107.44633"
+   id="connector304pin" /><line
+   id="connector305pin"
+   x1="107.44633"
+   y1="36.048534"
+   x2="121.84732"
+   y2="36.048534"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="38.996323"
+   x2="121.84734"
+   y1="38.996323"
+   x1="107.44633"
+   id="connector306pin" /><line
+   id="connector307pin"
+   x1="107.44633"
+   y1="44.891876"
+   x2="121.84732"
+   y2="44.891876"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round" /><line
+   id="connector308pin"
+   x1="107.44633"
+   y1="47.839664"
+   x2="121.84732"
+   y2="47.839664"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round" /><line
+   id="connector309pin"
+   x1="107.44633"
+   y1="53.735229"
+   x2="121.84734"
+   y2="53.735229"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="56.682995"
+   x2="121.84732"
+   y1="56.682995"
+   x1="107.44633"
+   id="connector310pin" /><line
+   id="connector311pin"
+   x1="107.44633"
+   y1="62.578568"
+   x2="121.84732"
+   y2="62.578568"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="65.526337"
+   x2="121.84734"
+   y1="65.526337"
+   x1="107.44633"
+   id="connector312pin" /><line
+   id="connector313pin"
+   x1="107.44633"
+   y1="71.421906"
+   x2="121.84732"
+   y2="71.421906"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="74.36969"
+   x2="121.84734"
+   y1="74.36969"
+   x1="107.44633"
+   id="connector314pin" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="80.265244"
+   x2="121.84732"
+   y1="80.265244"
+   x1="107.44633"
+   id="connector315pin" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="83.213028"
+   x2="121.84734"
+   y1="83.213028"
+   x1="107.44633"
+   id="connector316pin" /><line
+   id="connector317pin"
+   x1="107.44633"
+   y1="89.108589"
+   x2="121.84734"
+   y2="89.108589"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   inkscape:label="#connector317pin" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="92.056366"
+   x2="121.84732"
+   y1="92.056366"
+   x1="107.44633"
+   id="connector318pin" /><line
+   id="connector319pin"
+   x1="107.44633"
+   y1="97.951927"
+   x2="121.84732"
+   y2="97.951927"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="100.89971"
+   x2="121.84734"
+   y1="100.89971"
+   x1="107.44633"
+   id="connector320pin" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="109.74305"
+   x2="121.84732"
+   y1="109.74305"
+   x1="107.44633"
+   id="connector401pin"
+   inkscape:label="#connector401pin" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="112.69083"
+   x2="121.84732"
+   y1="112.69083"
+   x1="107.44633"
+   id="connector402pin" /><line
+   id="connector403pin"
+   x1="107.44633"
+   y1="118.58639"
+   x2="121.84732"
+   y2="118.58639"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="121.53417"
+   x2="121.84734"
+   y1="121.53417"
+   x1="107.44633"
+   id="connector404pin" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="127.42973"
+   x2="121.84732"
+   y1="127.42973"
+   x1="107.44633"
+   id="connector405pin" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="130.3775"
+   x2="121.84732"
+   y1="130.3775"
+   x1="107.44633"
+   id="connector406pin" /><line
+   id="connector407pin"
+   x1="107.44633"
+   y1="136.27307"
+   x2="121.84734"
+   y2="136.27307"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="139.22086"
+   x2="121.84732"
+   y1="139.22086"
+   x1="107.44633"
+   id="connector408pin" /><line
+   id="connector409pin"
+   x1="107.44633"
+   y1="145.11641"
+   x2="121.84735"
+   y2="145.11641"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="148.06419"
+   x2="121.84732"
+   y1="148.06419"
+   x1="107.44633"
+   id="connector410pin" /><line
+   id="connector411pin"
+   x1="107.44633"
+   y1="153.95975"
+   x2="121.84734"
+   y2="153.95975"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="156.90753"
+   x2="121.84732"
+   y1="156.90753"
+   x1="107.44633"
+   id="connector412pin" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="162.8031"
+   x2="121.84732"
+   y1="162.8031"
+   x1="107.44633"
+   id="connector413pin" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="165.75089"
+   x2="121.84732"
+   y1="165.75089"
+   x1="107.44633"
+   id="connector414pin" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="171.64644"
+   x2="121.84732"
+   y1="171.64644"
+   x1="107.44633"
+   id="connector415pin" /><line
+   id="connector416pin"
+   x1="107.44633"
+   y1="174.59422"
+   x2="121.84732"
+   y2="174.59422"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="180.48978"
+   x2="121.84732"
+   y1="180.48978"
+   x1="107.44633"
+   id="connector417pin" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="183.43756"
+   x2="121.84732"
+   y1="183.43756"
+   x1="107.44633"
+   id="connector418pin" /><line
+   id="connector419pin"
+   x1="107.44633"
+   y1="189.33311"
+   x2="121.84734"
+   y2="189.33311"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="192.2809"
+   x2="121.84732"
+   y1="192.2809"
+   x1="107.44633"
+   id="connector420pin" /><text
+   y="54.983288"
+   x="95.068703"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text11986"
+   font-size="3.5">PC6</text>
+
+<text
+   y="57.889355"
+   x="100.65842"
+   font-size="3.5"
+   id="text11988"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c">PC7</text>
+
+<text
+   font-size="3.5"
+   id="text11990"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   x="95.068703"
+   y="63.132549">PC2</text>
+
+<text
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text11992"
+   font-size="3.5"
+   x="100.69944"
+   y="66.604904">PC3</text>
+
+<text
+   font-size="3.5"
+   id="text11994"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   x="95.068703"
+   y="72.414383">PA1</text>
+
+<text
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text11996"
+   font-size="3.5"
+   x="100.74387"
+   y="75.320457">PA0</text>
+
+<text
+   y="80.676903"
+   x="95.068703"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text11998"
+   font-size="3.5">PA7</text>
+
+<text
+   y="84.489029"
+   x="100.64988"
+   font-size="3.5"
+   id="text12000"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c">PA4</text>
+
+<text
+   y="90.535492"
+   x="95.068703"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text12002"
+   font-size="3.5">PA5</text>
+
+<text
+   y="93.441566"
+   x="100.74387"
+   font-size="3.5"
+   id="text12004"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c">PA6</text>
+
+<text
+   font-size="3.5"
+   id="text12006"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   x="95.068703"
+   y="98.798012">GND</text>
+
+<text
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text12008"
+   font-size="3.5"
+   x="100.64988"
+   y="102.61014">VCC</text>
+
+<text
+   y="111.15873"
+   x="95.268654"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text12010"
+   font-size="3.5">ID</text>
+
+<text
+   y="114.0648"
+   x="99.36985"
+   font-size="3.5"
+   id="text12012"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c">GND</text>
+
+<text
+   font-size="3.5"
+   id="text12014"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   x="95.068703"
+   y="119.30799">PD4</text>
+
+<text
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text12016"
+   font-size="3.5"
+   x="100.38499"
+   y="122.78035">PD5</text>
+
+<text
+   font-size="3.5"
+   id="text12018"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   x="95.068703"
+   y="128.58981">PE0</text>
+
+<text
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text12020"
+   font-size="3.5"
+   x="100.78831"
+   y="131.4959">PF6</text>
+
+<text
+   y="136.85233"
+   x="95.068703"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text12022"
+   font-size="3.5">PB4</text>
+
+<text
+   y="140.66447"
+   x="100.68577"
+   font-size="3.5"
+   id="text12024"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c">PB5</text>
+
+<text
+   font-size="3.5"
+   id="text12026"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   x="95.068703"
+   y="146.26837">PB2</text>
+
+<text
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text12028"
+   font-size="3.5"
+   x="100.65842"
+   y="149.17444">PB3</text>
+
+<text
+   y="154.41763"
+   x="95.068703"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text12030"
+   font-size="3.5">PC2</text>
+
+<text
+   y="157.89"
+   x="100.69944"
+   font-size="3.5"
+   id="text12032"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c">PC3</text>
+
+<text
+   y="163.69946"
+   x="95.068703"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text12034"
+   font-size="3.5">PC1</text>
+
+<text
+   y="166.60555"
+   x="100.74387"
+   font-size="3.5"
+   id="text12036"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c">PC0</text>
+
+<text
+   font-size="3.5"
+   id="text12038"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   x="95.068703"
+   y="171.96199">PE1</text>
+
+<text
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text12040"
+   font-size="3.5"
+   x="100.64988"
+   y="175.77411">PA4</text>
+
+<text
+   font-size="3.5"
+   id="text12042"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   x="95.068703"
+   y="181.82057">PA5</text>
+
+<text
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text12044"
+   font-size="3.5"
+   x="100.74387"
+   y="184.72665">PA6</text>
+
+<text
+   y="190.0831"
+   x="95.068703"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text12046"
+   font-size="3.5">GND</text>
+
+<text
+   y="193.89522"
+   x="100.64988"
+   font-size="3.5"
+   id="text12048"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c">VCC</text>
+
+<line
+   x1="102.59045"
+   y1="211.84396"
+   x2="102.59045"
+   y2="226.24493"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   id="connector501pin" /><line
+   x1="99.642662"
+   y1="211.84396"
+   x2="99.642662"
+   y2="226.24493"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   id="connector502pin" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="226.24493"
+   x2="93.747093"
+   y1="211.84396"
+   x1="93.747093"
+   id="connector503pin" /><line
+   x1="90.799316"
+   y1="211.84396"
+   x2="90.799316"
+   y2="226.24496"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   id="connector504pin" /><line
+   x1="84.903755"
+   y1="211.84396"
+   x2="84.903755"
+   y2="226.24493"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   id="connector505pin" /><line
+   x1="81.955986"
+   y1="211.84396"
+   x2="81.955986"
+   y2="226.24493"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   id="connector506pin" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="226.24496"
+   x2="76.060402"
+   y1="211.84396"
+   x1="76.060402"
+   id="connector507pin" /><line
+   x1="73.112633"
+   y1="211.84396"
+   x2="73.112633"
+   y2="226.24493"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   id="connector508pin" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="226.24496"
+   x2="67.217064"
+   y1="211.84396"
+   x1="67.217064"
+   id="connector509pin" /><line
+   x1="64.269279"
+   y1="211.84396"
+   x2="64.269279"
+   y2="226.24493"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   id="connector510pin" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="226.24496"
+   x2="58.373741"
+   y1="211.84396"
+   x1="58.373741"
+   id="connector511pin" /><line
+   x1="55.425957"
+   y1="211.84396"
+   x2="55.425957"
+   y2="226.24493"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   id="connector512pin" /><line
+   x1="49.530384"
+   y1="211.84396"
+   x2="49.530384"
+   y2="226.24493"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   id="connector513pin" /><line
+   x1="46.5826"
+   y1="211.84396"
+   x2="46.5826"
+   y2="226.24493"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   id="connector514pin" /><line
+   x1="40.687031"
+   y1="211.84396"
+   x2="40.687031"
+   y2="226.24493"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   id="connector515pin" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="226.24493"
+   x2="37.739246"
+   y1="211.84396"
+   x1="37.739246"
+   id="connector516pin" /><line
+   x1="31.843714"
+   y1="211.84396"
+   x2="31.843714"
+   y2="226.24493"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   id="connector517pin" /><line
+   x1="28.895929"
+   y1="211.84396"
+   x2="28.895929"
+   y2="226.24493"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   id="connector518pin" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="226.24496"
+   x2="23.00036"
+   y1="211.84396"
+   x1="23.00036"
+   id="connector519pin" /><line
+   x1="20.052576"
+   y1="211.84396"
+   x2="20.052576"
+   y2="226.24493"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   id="connector520pin" /><text
+   font-size="3.5"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   x="198.63898"
+   y="-101.24607"
+   id="text12170"
+   transform="rotate(90)">ID</text>
+
+<text
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   font-size="3.5"
+   x="202.74017"
+   y="-98.340004"
+   id="text12172"
+   transform="rotate(90)">GND</text>
+
+<text
+   y="-93.096802"
+   x="198.43903"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   font-size="3.5"
+   id="text12174"
+   transform="rotate(90)">PA6</text>
+
+<text
+   y="-89.624458"
+   x="203.75531"
+   font-size="3.5"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text12176"
+   transform="rotate(90)">PA5</text>
+
+<text
+   y="-83.814995"
+   x="198.43903"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   font-size="3.5"
+   id="text12178"
+   transform="rotate(90)">PB0</text>
+
+<text
+   y="-80.908913"
+   x="204.15863"
+   font-size="3.5"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text12180"
+   transform="rotate(90)">PB1</text>
+
+<text
+   font-size="3.5"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   x="198.43903"
+   y="-75.552483"
+   id="text12182"
+   transform="rotate(90)">PC3</text>
+
+<text
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   font-size="3.5"
+   x="204.05609"
+   y="-71.740318"
+   id="text12184"
+   transform="rotate(90)">PC2</text>
+
+<text
+   y="-66.136436"
+   x="198.43903"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   font-size="3.5"
+   id="text12186"
+   transform="rotate(90)">PE3</text>
+
+<text
+   y="-63.23037"
+   x="204.02875"
+   font-size="3.5"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text12188"
+   transform="rotate(90)">PE2</text>
+
+<text
+   font-size="3.5"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   x="198.43903"
+   y="-57.987175"
+   id="text12190"
+   transform="rotate(90)">PF5</text>
+
+<text
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   font-size="3.5"
+   x="204.06976"
+   y="-54.514793"
+   id="text12192"
+   transform="rotate(90)">PF4</text>
+
+<text
+   font-size="3.5"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   x="198.43903"
+   y="-48.705341"
+   id="text12194"
+   transform="rotate(90)">PD1</text>
+
+<text
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   font-size="3.5"
+   x="204.1142"
+   y="-45.799244"
+   id="text12196"
+   transform="rotate(90)">PD0</text>
+
+<text
+   y="-40.442799"
+   x="198.43903"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   font-size="3.5"
+   id="text12198"
+   transform="rotate(90)">PD1</text>
+
+<text
+   y="-36.630695"
+   x="204.0202"
+   font-size="3.5"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text12200"
+   transform="rotate(90)">PD0</text>
+
+<text
+   y="-30.584223"
+   x="198.43903"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   font-size="3.5"
+   id="text12202"
+   transform="rotate(90)">PD7</text>
+
+<text
+   y="-27.678156"
+   x="204.1142"
+   font-size="3.5"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text12204"
+   transform="rotate(90)">PD6</text>
+
+<text
+   font-size="3.5"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   x="198.43903"
+   y="-22.321711"
+   id="text12206"
+   transform="rotate(90)">GND</text>
+
+<text
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   font-size="3.5"
+   x="204.0202"
+   y="-18.509577"
+   id="text12208"
+   transform="rotate(90)">VCC</text>
+
+<flowRoot
+   xml:space="preserve"
+   id="flowRoot12314"
+   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+     id="flowRegion12316"><rect
+       id="rect12318"
+       width="64.067795"
+       height="106.35254"
+       x="55.418644"
+       y="218.47118" /></flowRegion><flowPara
+     id="flowPara12320" /></flowRoot><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="36.488136"
+   x2="14.919195"
+   y1="36.488136"
+   x1="0.51919544"
+   id="connector102pin" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="36.151474"
+   x="0.1387929"
+   id="connector102terminal" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="18.007936"
+   x="121.51111"
+   id="connector301terminal" /><rect
+   id="connector302terminal"
+   x="121.51111"
+   y="20.956053"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><rect
+   id="connector303terminal"
+   x="121.51111"
+   y="26.817259"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="29.765375"
+   x="121.51111"
+   id="connector304terminal" /><rect
+   id="connector307terminal"
+   x="121.51111"
+   y="44.510059"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="47.458176"
+   x="121.51111"
+   id="connector308terminal" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="35.707928"
+   x="121.51111"
+   id="connector305terminal" /><rect
+   id="connector306terminal"
+   x="121.51111"
+   y="38.656044"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><rect
+   id="rect12466"
+   x="121.51111"
+   y="53.400726"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="56.348843"
+   x="121.51111"
+   id="connector310terminal" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="62.210049"
+   x="121.51111"
+   id="connector311terminal" /><rect
+   id="connector312terminal"
+   x="121.51111"
+   y="65.158165"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="79.902847"
+   x="121.51111"
+   id="connector315terminal" /><rect
+   id="connector316terminal"
+   x="121.51111"
+   y="82.850967"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><rect
+   id="connector313terminal"
+   x="121.51111"
+   y="71.100716"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="74.048836"
+   x="121.51111"
+   id="connector314terminal" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="88.68026"
+   x="121.51111"
+   id="rect12482" /><rect
+   id="rect12484"
+   x="121.51111"
+   y="91.62838"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><rect
+   id="rect12486"
+   x="121.51111"
+   y="97.489586"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="100.4377"
+   x="121.51111"
+   id="rect12488" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="109.38156"
+   x="121.51111"
+   id="rect12494" /><rect
+   id="rect12496"
+   x="121.51111"
+   y="112.32968"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><rect
+   id="connector317terminal"
+   x="121.51111"
+   y="88.68026"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="91.62838"
+   x="121.51111"
+   id="connector318terminal" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="97.489586"
+   x="121.51111"
+   id="rect12502" /><rect
+   id="connector320terminal"
+   x="121.51111"
+   y="100.4377"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><rect
+   id="connector401terminal"
+   x="121.51111"
+   y="109.38156"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="112.32968"
+   x="121.51111"
+   id="connector402terminal" /><rect
+   id="connector405terminal"
+   x="121.51111"
+   y="127.07275"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="130.02087"
+   x="121.51111"
+   id="connector406terminal" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="118.27063"
+   x="121.51111"
+   id="connector403terminal" /><rect
+   id="connector404terminal"
+   x="121.51111"
+   y="121.21875"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><rect
+   id="rect12518"
+   x="121.51111"
+   y="135.85017"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="138.79829"
+   x="121.51111"
+   id="rect12520" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="144.6595"
+   x="121.51111"
+   id="rect12522" /><rect
+   id="rect12524"
+   x="121.51111"
+   y="147.6076"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="135.85017"
+   x="121.51111"
+   id="connector407terminal" /><rect
+   id="connector408terminal"
+   x="121.51111"
+   y="138.79829"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><rect
+   id="connector409terminal"
+   x="121.51111"
+   y="144.6595"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="147.6076"
+   x="121.51111"
+   id="connector410terminal" /><rect
+   id="rect12534"
+   x="121.51111"
+   y="153.50826"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="156.45638"
+   x="121.51111"
+   id="rect12536" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="153.50826"
+   x="121.51111"
+   id="connector411terminal" /><rect
+   id="connector412terminal"
+   x="121.51111"
+   y="156.45638"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="171.19945"
+   x="121.51111"
+   id="connector415terminal" /><rect
+   id="connector416terminal"
+   x="121.51111"
+   y="174.14757"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><rect
+   id="connector413terminal"
+   x="121.51111"
+   y="162.39732"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="165.34544"
+   x="121.51111"
+   id="connector414terminal" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="179.97687"
+   x="121.51111"
+   id="rect12550" /><rect
+   id="rect12552"
+   x="121.51111"
+   y="182.92499"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><rect
+   id="rect12554"
+   x="121.51111"
+   y="188.78619"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="191.7343"
+   x="121.51111"
+   id="rect12556" /><rect
+   id="connector417terminal"
+   x="121.51111"
+   y="179.97687"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="182.92499"
+   x="121.51111"
+   id="connector418terminal" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="188.78619"
+   x="121.51111"
+   id="connector419terminal" /><rect
+   id="connector420terminal"
+   x="121.51111"
+   y="191.7343"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><rect
+   id="rect12566"
+   x="225.92534"
+   y="-102.9701"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080"
+   transform="rotate(90)" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="-100.02198"
+   x="225.92534"
+   id="rect12568"
+   transform="rotate(90)" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="-102.9701"
+   x="225.92534"
+   id="connector501terminal"
+   transform="rotate(90)" /><rect
+   id="connector502terminal"
+   x="225.92534"
+   y="-100.02198"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080"
+   transform="rotate(90)" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="-85.278908"
+   x="225.92534"
+   id="connector505terminal"
+   transform="rotate(90)" /><rect
+   id="connector506terminal"
+   x="225.92534"
+   y="-82.330788"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080"
+   transform="rotate(90)" /><rect
+   id="connector503terminal"
+   x="225.92534"
+   y="-94.081032"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080"
+   transform="rotate(90)" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="-91.132912"
+   x="225.92534"
+   id="connector504terminal"
+   transform="rotate(90)" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="-76.501488"
+   x="225.92534"
+   id="rect12582"
+   transform="rotate(90)" /><rect
+   id="rect12584"
+   x="225.92534"
+   y="-73.553368"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080"
+   transform="rotate(90)" /><rect
+   id="rect12586"
+   x="225.92534"
+   y="-67.692162"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080"
+   transform="rotate(90)" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="-64.744057"
+   x="225.92534"
+   id="rect12588"
+   transform="rotate(90)" /><rect
+   id="connector507terminal"
+   x="225.92534"
+   y="-76.501488"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080"
+   transform="rotate(90)" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="-73.553368"
+   x="225.92534"
+   id="connector508terminal"
+   transform="rotate(90)" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="-67.692162"
+   x="225.92534"
+   id="connector509terminal"
+   transform="rotate(90)" /><rect
+   id="connector510terminal"
+   x="225.92534"
+   y="-64.744057"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080"
+   transform="rotate(90)" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="-58.843407"
+   x="225.92534"
+   id="rect12598"
+   transform="rotate(90)" /><rect
+   id="rect12600"
+   x="225.92534"
+   y="-55.895287"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080"
+   transform="rotate(90)" /><rect
+   id="connector511terminal"
+   x="225.92534"
+   y="-58.843407"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080"
+   transform="rotate(90)" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="-55.895287"
+   x="225.92534"
+   id="connector512terminal"
+   transform="rotate(90)" /><rect
+   id="connector515terminal"
+   x="225.92534"
+   y="-41.152214"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080"
+   transform="rotate(90)" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="-38.204094"
+   x="225.92534"
+   id="connector516terminal"
+   transform="rotate(90)" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="-49.954338"
+   x="225.92534"
+   id="connector513terminal"
+   transform="rotate(90)" /><rect
+   id="connector514terminal"
+   x="225.92534"
+   y="-47.006218"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080"
+   transform="rotate(90)" /><rect
+   id="rect12614"
+   x="225.92534"
+   y="-32.374794"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080"
+   transform="rotate(90)" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="-29.426674"
+   x="225.92534"
+   id="rect12616"
+   transform="rotate(90)" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="-23.565468"
+   x="225.92534"
+   id="rect12618"
+   transform="rotate(90)" /><rect
+   id="rect12620"
+   x="225.92534"
+   y="-20.617363"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080"
+   transform="rotate(90)" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="-32.374794"
+   x="225.92534"
+   id="connector517terminal"
+   transform="rotate(90)" /><rect
+   id="connector518terminal"
+   x="225.92534"
+   y="-29.426674"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080"
+   transform="rotate(90)" /><rect
+   id="connector519terminal"
+   x="225.92534"
+   y="-23.565468"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080"
+   transform="rotate(90)" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="-20.617363"
+   x="225.92534"
+   id="connector520terminal"
+   transform="rotate(90)" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="42.894913"
+   x2="14.919195"
+   y1="42.894913"
+   x1="0.51919544"
+   id="connector103pin" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="42.544914"
+   x="0.1387929"
+   id="connector103terminal" /><line
+   id="connector104pin"
+   x1="0.51919544"
+   y1="50.58305"
+   x2="14.919195"
+   y2="50.58305"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round" /><rect
+   id="connector104terminal"
+   x="0.1387929"
+   y="50.246387"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="57.310169"
+   x2="14.919195"
+   y1="57.310169"
+   x1="0.51919544"
+   id="connector105pin" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="56.960171"
+   x="0.1387929"
+   id="connector105terminal" /><line
+   id="connector106pin"
+   x1="0.51919544"
+   y1="64.998306"
+   x2="14.919195"
+   y2="64.998306"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round" /><rect
+   id="connector106terminal"
+   x="0.1387929"
+   y="64.661644"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><line
+   id="connector107pin"
+   x1="0.51919544"
+   y1="71.405083"
+   x2="14.919195"
+   y2="71.405083"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round" /><rect
+   id="connector107terminal"
+   x="0.1387929"
+   y="71.055084"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="79.093216"
+   x2="14.919195"
+   y1="79.093216"
+   x1="0.51919544"
+   id="connector108pin" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="78.756554"
+   x="0.1387929"
+   id="connector108terminal" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="86.781357"
+   x2="14.919195"
+   y1="86.781357"
+   x1="0.51919544"
+   id="connector9pin" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="86.431358"
+   x="0.1387929"
+   id="connector201terminal" /><line
+   id="connector202pin"
+   x1="0.51919544"
+   y1="94.46949"
+   x2="14.919195"
+   y2="94.46949"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round" /><rect
+   id="connector202terminal"
+   x="0.1387929"
+   y="94.132828"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><line
+   id="connector203pin"
+   x1="0.51919544"
+   y1="100.87627"
+   x2="14.919195"
+   y2="100.87627"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round" /><rect
+   id="connector203terminal"
+   x="0.1387929"
+   y="100.52627"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="108.56441"
+   x2="14.919195"
+   y1="108.56441"
+   x1="0.51919544"
+   id="connector204pin" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="108.22775"
+   x="0.1387929"
+   id="connector204terminal" /><line
+   id="connector205pin"
+   x1="0.51919544"
+   y1="115.29153"
+   x2="14.919195"
+   y2="115.29153"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round" /><rect
+   id="connector205terminal"
+   x="0.1387929"
+   y="114.94153"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="122.97966"
+   x2="14.919195"
+   y1="122.97966"
+   x1="0.51919544"
+   id="connector206pin" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="122.643"
+   x="0.1387929"
+   id="connector206terminal" /><line
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+   y2="129.38644"
+   x2="14.919195"
+   y1="129.38644"
+   x1="0.51919544"
+   id="connector207pin" /><rect
+   style="fill:#008080"
+   height="0.69999999"
+   width="0.69999999"
+   y="129.03644"
+   x="0.1387929"
+   id="connector207terminal" /><line
+   id="connector208pin"
+   x1="0.51919544"
+   y1="137.07457"
+   x2="14.919195"
+   y2="137.07457"
+   style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round" /><rect
+   id="connector208terminal"
+   x="0.1387929"
+   y="136.73792"
+   width="0.69999999"
+   height="0.69999999"
+   style="fill:#008080" /><text
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text13271"
+   font-size="3.5"
+   x="16.1504"
+   y="37.348804">RTD/PD0</text>
+
+<text
+   y="43.83567"
+   x="16.1504"
+   font-size="3.5"
+   id="text13273"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c">CS/PF2</text>
+
+<text
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text13275"
+   font-size="3.5"
+   x="16.1504"
+   y="51.844147">SCK/PA6</text>
+
+<text
+   y="58.331013"
+   x="16.1504"
+   font-size="3.5"
+   id="text13277"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c">MISO/PA5</text>
+
+<text
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text13279"
+   font-size="3.5"
+   x="16.1504"
+   y="66.099236">MOSI/PA4</text>
+
+<text
+   y="80.43441"
+   x="16.1504"
+   font-size="3.5"
+   id="text13281"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c">GND</text>
+
+<text
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text13283"
+   font-size="3.5"
+   x="16.1504"
+   y="72.506012">+3.3V</text>
+
+<text
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text13301"
+   font-size="3.5"
+   x="16.1504"
+   y="87.941078">PF4/PWM</text>
+
+<text
+   y="95.789383"
+   x="16.1504"
+   font-size="3.5"
+   id="text13303"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c">PE2/INT</text>
+
+<text
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text13305"
+   font-size="3.5"
+   x="16.1504"
+   y="102.27625">PB1/RX</text>
+
+<text
+   y="110.28472"
+   x="16.1504"
+   font-size="3.5"
+   id="text13307"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c">PB0/RX</text>
+
+<text
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text13309"
+   font-size="3.5"
+   x="16.1504"
+   y="116.77159">PC3/SCL</text>
+
+<text
+   y="124.53981"
+   x="16.1504"
+   font-size="3.5"
+   id="text13311"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c">PC2/SDA</text>
+
+<text
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c"
+   id="text13313"
+   font-size="3.5"
+   x="16.1504"
+   y="138.87498">GND</text>
+
+<text
+   y="130.94659"
+   x="16.1504"
+   font-size="3.5"
+   id="text13315"
+   style="font-size:3.5px;font-family:DroidSans;fill:#8c8c8c">+5V</text>
+
+</g>
+</svg>

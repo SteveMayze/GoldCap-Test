@@ -30,4 +30,5 @@ Both 20MHz and 16MHz Oscillators are supported. The default Main Clock Source is
 To use 16MHz Oscillator,
 * Select 16MHz Internal Oscillator (OSC16M) option in Main Clock Source
 * Manually change the fuse configuration. 
-
+* Note : For AVRDA Family, The Internal High-Frequency Oscillator (OSCHF) supports output frequencies of 1, 2, 3 and 4 MHz and
+multiples of 4, up to 32 MHz

@@ -5,9 +5,9 @@
 
 
 #include <util/delay.h>
-#define MAX_VOL 2.5 // VREF=2.5V
-#define RES_10BIT 0x3FF
-#define ADC_CHANNEL 6
+#define MAX_VOL 3.3 // VREF=2.5V
+#define RES_10BIT 0x3ff
+#define ADC_CHANNEL 0x06
 
 #define LED_ON 0
 #define LED_OFF 1
@@ -35,7 +35,7 @@ void adc_callback(void)
 {
 	adc_isr_triggered = true;
 	adc_result = ADC0.RES;
-	calc_volt  = (adc_result * MAX_VOL) / RES_10BIT;
+ 	calc_volt  = (adc_result * MAX_VOL) / RES_10BIT;
 	LED0_toggle_level();
 }
 
@@ -46,7 +46,7 @@ void adc_init()
 
 	// Enable window_mode
 	ADC_0_set_window_mode(ADC_WINCM_BELOW_gc);
-	ADC_0_set_window_low(0x1FF);
+	ADC_0_set_window_low(0x3FF); // 0x1FF
 
 	// Setup specified ADC channel, to be used for windowed conversions
 	ADC_0_set_window_channel(ADC_CHANNEL);
@@ -99,14 +99,14 @@ int main(void)
 		if (adc_isr_triggered) {
 			/* Print calc_volt to terminal*/
 			usart_send_float(calc_volt);
-			_delay_ms(1000);
+			// _delay_ms(1000);
 			adc_isr_triggered = false;
 
 			// Send a message to XBEE
-			for(uint8_t i=0; i< sizeof(msg); i++){
-				while( !USART_0_is_tx_ready() && USART0_CTS_get_level()) {;}
-				USART_0_write( msg[i] );
-			}
+// 			for(uint8_t i=0; i< sizeof(msg); i++){
+// 				while( !USART_0_is_tx_ready() && USART0_CTS_get_level()) {;}
+// 				USART_0_write( msg[i] );
+// 			}
 			_delay_ms(1000);
 
 		}
@@ -117,7 +117,7 @@ int main(void)
 			while( USART_0_is_rx_ready() ){ // Something in the buffer
 				buf[idx] = USART_0_read();
 				idx++;
-				_delay_ms(10);
+				// _delay_ms(10);
 				if (idx > sizeof(buf))
 				break;
 			}
