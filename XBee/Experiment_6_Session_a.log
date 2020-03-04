@@ -1,0 +1,67 @@
+
+
+
+7E 		Start of transmission
+00 10 	Number of bytes
+83 		Code for 16 bit addressing
+56 78 	16 bit address
+20 		Singal Strength
+00 		Status byte
+02 		Number of samples
+02 08 	Active-signal byte
+00 00 	First digital signal
+01 83 	First analog signal
+00 00 	second digital signal
+01 86 	second analog signal
+77		checksum
+
+Switch moved
+
+7E 
+00 10 
+83 
+56 78 
+20 
+00 
+02 
+02 08 
+00 08 
+01 9A 
+00 08 
+01 9A 
+3C
+
+        16 15 14 13 12 10  9  8    7  6  5  4  3  2  1  0
+		B7 B6 B5 B4 B3 B2 B1 B0 - B7 B6 B5 B4 B3 B2 B1 B0 
+		X  A5 A4 A3 A2 A1 A0 D8   D7 D6 D5 D4 D3 D2 D1 D0
+		0   0  0  0  0  0  0  0    0  0  0  0  1  0  0  0
+
+
+
+		B7 B6 B5 B4 B3 B2 B1 B0 - B7 B6 B5 B4 B3 B2 B1 B0 
+		X  X  A  X  X  X  A9 A8   A7 A6 A5 A4 A3 A2 A1 A0
+		0   0  0  0  0  0  0  1    1  0  0  1  1  0  1  0
+
+
+
+7E 
+00 14 
+83 
+56 78 
+22 		Signal strength
+00 		Status byte
+02 		Number of samples
+
+06 08 	Active signal byte
+
+00 08 
+01 C9 
+03 2C 
+
+00 08 
+01 C6 
+03 29 
+
+80
+
+

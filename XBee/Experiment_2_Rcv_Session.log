@@ -1,0 +1,60 @@
+02-09-2020 16:22:48.564,-,AT," ,0013A200415D58CB,802.15.4 TH,2003,COM6 - 9600/8/N/1/N,1"
+
+02-09-2020 16:22:25.264,0,RECV,7E000C8356781C00020001000100018D
+02-09-2020 16:22:27.244,1,RECV,7E000C8356781C00020001000100018D
+02-09-2020 16:22:29.224,2,RECV,7E000C8356781C0002
+02-09-2020 16:22:29.283,3,RECV,0001000100018D
+02-09-2020 16:22:31.254,4,RECV,7E0
+
+
+
+7E 		Start of transmission
+000C 	Byte count
+83 		16 Bit Module addressing
+5678	16 Bit Address
+1C		Signal strength
+00		Status byte
+02		Number of samples
+0001	Active signal bytes - identify the active I/O pins 
+		This is a bit mask to the individual pins
+
+		B7 B6 B5 B4 B3 B2 B1 B0 - B7 B6 B5 B4 B3 B2 B1 B0 
+		X  A5 A4 A3 A2 A1 A0 D8   D7 D6 D5 D4 D3 D2 D1 D0
+		0   0  0  0  0  0  0  0    0  0  0  0  0  0  0  1
+
+		The data bytes are the bit mask to indicate the value
+		of the input pins as defined in the activy signal bytes
+
+0001	First of two samples
+0001	Second of the two samples
+8D		Calculated checksum.
+
+The checksum is calculated from the bytes, excluding the start of 
+transmission and the byte count.
+
+7E 000C - 83 56 78 1C 00 02 00 01 00 01 00 01 - 8D
+
+0x0172
+
+=> 0x72
+
+0xFF - 0x72 = 8D
+
+Part B ... Set the D0 to ground.
+7E
+000C
+83
+5678
+11
+00
+02
+0001
+0000
+0000
+9A
+
+7E 000C - 83 56 78 11 00 02 00 01 00 00 00 00 - 9A
+
+0x0165 Becomes 0x65
+
+0xFF - 0x65 = 9A

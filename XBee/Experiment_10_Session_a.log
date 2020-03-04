@@ -1,0 +1,23 @@
+7E 
+00 04 
+08 Package Type
+52 Frame reference
+53 4C SL
+06 
+
+7E 
+00 09 
+88 Package type AT command response
+52 Frame reference
+53 4C SL
+00 - Status byte
+41 5D 58 CB = Low serial address 415D58CB
+C5 - Checksum
+
+7E 
+00 05 
+88 
+52 
+51 51 
+02 		- Invalid command 
+81

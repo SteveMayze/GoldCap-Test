@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name GoldCap)(type Legacy)(uri D:/pcbs/GoldCap/KiCad/lib/GoldCap.lib)(options "")(descr ""))
+  (lib (name GoldCap)(type Legacy)(uri ${KIPRJMOD}/../lib/GoldCap.lib)(options "")(descr ""))
   (lib (name GoldCap-rescue)(type Legacy)(uri ${KIPRJMOD}/GoldCap-rescue.lib)(options "")(descr ""))
 )

@@ -1,0 +1,196 @@
+
+IS Command
+
+
+Remote Command Response (API 1)
+
+7E 00 18 97 52 00 13 A2 00 41 62 9B CE 56 78 49 53 00 01 06 FC 00 30 02 0C 02 0B 9D
+
+Start delimiter: 7E
+Length: 00 18 (24)
+Frame type: 97 (Remote Command Response)
+Frame ID: 52 (82)
+64-bit source address: 00 13 A2 00 41 62 9B CE
+16-bit source address: 56 78
+AT Command: 49 53 (IS)
+Status: 00 (Status OK)
+Response: 01 06 FC 00 30 02 0C 02 0B
+Checksum: 9D
+
+
+
+01 		One sample of I/O lines and ADC inputs
+06      First active-signal byte
+FC      Second active-signal byte
+00      First digital-data byte
+30      Second digital-data byte
+02 0C   Analog sample from AD0-DIO0
+02 0B   Analog sample from AD1-DIO1
+
+
+
+        16 15 14 13 12 10  9  8    7  6  5  4  3  2  1  0
+		B7 B6 B5 B4 B3 B2 B1 B0 - B7 B6 B5 B4 B3 B2 B1 B0 
+		X  A5 A4 A3 A2 A1 A0 D8   D7 D6 D5 D4 D3 D2 D1 D0
+		0   0  0  0  0  1  1  0    1  1  1  1  1  1  0  0
+                  0           6             F           C
+
+Analog 0 and 1
+Digital D2-D7
+
+
+        16 15 14 13 12 10  9  8    7  6  5  4  3  2  1  0
+		B7 B6 B5 B4 B3 B2 B1 B0 - B7 B6 B5 B4 B3 B2 B1 B0 
+		X   X  X  X  X  X  X D8   D7 D6 D5 D4 D3 D2 D1 D0
+		0   0  0  0  0  0  0  0    0  0  1  1  0  0  0  0
+		          0           0             3           0
+Pins 5 and 5 are 0 since they were configured as logic LOW 
+
+
+
+
+
+
+
+Remote Command Response (API 1)
+
+7E 00 18 97 52 00 13 A2 00 41 62 9B CE 56 78 49 53 00 01 06 FC 00 F0 03 FF 00 00 F6
+
+Start delimiter: 7E
+Length: 00 18 (24)
+Frame type: 97 (Remote Command Response)
+Frame ID: 52 (82)
+64-bit source address: 00 13 A2 00 41 62 9B CE
+16-bit source address: 56 78
+AT Command: 49 53 (IS)
+Status: 00 (Status OK)
+Response: 01 06 FC 00 F0 03 FF 00 00
+Checksum: F6
+
+
+01 
+06 		First active-signal byte
+FC 		Second active-signal byte
+00 		First digital-data byte
+F0 		Second digital-data byte
+03 FF 	Analog sample from AD0-DIO0
+00 00	Analog sample from AD1-DIO1
+
+
+        16 15 14 13 12 10  9  8    7  6  5  4  3  2  1  0
+		B7 B6 B5 B4 B3 B2 B1 B0 - B7 B6 B5 B4 B3 B2 B1 B0 
+		X  A5 A4 A3 A2 A1 A0 D8   D7 D6 D5 D4 D3 D2 D1 D0
+		0   0  0  0  0  1  1  0    1  1  1  1  1  1  0  0
+                  0           6             F           C
+
+Analog 0 and 1
+Digital D2-D7
+
+
+        16 15 14 13 12 10  9  8    7  6  5  4  3  2  1  0
+		B7 B6 B5 B4 B3 B2 B1 B0 - B7 B6 B5 B4 B3 B2 B1 B0 
+		X   X  X  X  X  X  X D8   D7 D6 D5 D4 D3 D2 D1 D0
+		0   0  0  0  0  0  0  0    1  1  1  1  0  0  0  0
+		          0           0             F           0
+Pins 5 and 5 are 0 since they were configured as logic LOW 
+
+Remote Command Response (API 1)
+
+7E 00 18 97 52 00 13 A2 00 41 62 9B CE 56 78 49 53 00 01 06 FC 00 F0 03 FF 00 00 F6
+
+Start delimiter: 7E
+Length: 00 18 (24)
+Frame type: 97 (Remote Command Response)
+Frame ID: 52 (82)
+64-bit source address: 00 13 A2 00 41 62 9B CE
+16-bit source address: 56 78
+AT Command: 49 53 (IS)
+Status: 00 (Status OK)
+Response: 01 06 FC 00 F0 03 FF 00 00
+Checksum: F6
+
+
+Remote Command Response (API 1)
+
+7E 00 18 97 52 00 13 A2 00 41 62 9B CE 56 78 49 53 00 01 06 FC 00 F0 03 FF 00 00 F6
+
+Start delimiter: 7E
+Length: 00 18 (24)
+Frame type: 97 (Remote Command Response)
+Frame ID: 52 (82)
+64-bit source address: 00 13 A2 00 41 62 9B CE
+16-bit source address: 56 78
+AT Command: 49 53 (IS)
+Status: 00 (Status OK)
+Response: 01 06 FC 00 F0 03 FF 00 00
+Checksum: F6
+
+Remote Command Response (API 1)
+
+7E 00 18 97 52 00 13 A2 00 41 62 9B CE 56 78 49 53 00 01 06 FC 00 F0 03 FF 00 00 F6
+
+Start delimiter: 7E
+Length: 00 18 (24)
+Frame type: 97 (Remote Command Response)
+Frame ID: 52 (82)
+64-bit source address: 00 13 A2 00 41 62 9B CE
+16-bit source address: 56 78
+AT Command: 49 53 (IS)
+Status: 00 (Status OK)
+Response: 01 06 FC 00 F0 03 FF 00 00
+Checksum: F6
+
+
+Turning off the LED ad D2
+
+Remote Command Response (API 1)
+
+7E 00 0F 97 52 00 13 A2 00 41 62 9B CE 56 78 44 32 00 11
+
+Start delimiter: 7E
+Length: 00 0F (15)
+Frame type: 97 (Remote Command Response)
+Frame ID: 52 (82)
+64-bit source address: 00 13 A2 00 41 62 9B CE
+16-bit source address: 56 78
+AT Command: 44 32 (D2)
+Status: 00 (Status OK)
+Checksum: 11
+
+Variable Resistor
+
+Remote Command Response (API 1)
+
+7E 00 18 97 52 00 13 A2 00 41 62 9B CE 56 78 49 53 00 01 06 FC 00 F0 03 FF 03 FF F4
+
+Start delimiter: 7E
+Length: 00 18 (24)
+Frame type: 97 (Remote Command Response)
+Frame ID: 52 (82)
+64-bit source address: 00 13 A2 00 41 62 9B CE
+16-bit source address: 56 78
+AT Command: 49 53 (IS)
+Status: 00 (Status OK)
+Response: 01 06 FC 00 F0 03 FF 03 FF
+Checksum: F4
+
+
+Remote Command Response (API 1)
+
+7E 00 18 97 52 00 13 A2 00 41 62 9B CE 56 78 49 53 00 01 06 FC 00 F0 03 FF 01 B1 44
+
+Start delimiter: 7E
+Length: 00 18 (24)
+Frame type: 97 (Remote Command Response)
+Frame ID: 52 (82)
+64-bit source address: 00 13 A2 00 41 62 9B CE
+16-bit source address: 56 78
+AT Command: 49 53 (IS)
+Status: 00 (Status OK)
+Response: 01 06 FC 00 F0 03 FF 01 B1
+Checksum: 44
+
+
+
+
+

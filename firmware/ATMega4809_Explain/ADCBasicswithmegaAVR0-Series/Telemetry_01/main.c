@@ -1,10 +1,12 @@
+
+
 #include <atmel_start.h>
 #include <avr/sleep.h>
 #include <string.h>
 #include <stdio.h>
 
-
 #include <util/delay.h>
+
 #define MAX_VOL 3.3 // VREF=2.5V
 #define RES_10BIT 0x3ff
 #define ADC_CHANNEL 0x06
@@ -103,10 +105,10 @@ int main(void)
 			adc_isr_triggered = false;
 
 			// Send a message to XBEE
-// 			for(uint8_t i=0; i< sizeof(msg); i++){
-// 				while( !USART_0_is_tx_ready() && USART0_CTS_get_level()) {;}
-// 				USART_0_write( msg[i] );
-// 			}
+			for(uint8_t i=0; i< sizeof(msg); i++){
+				while( !USART_0_is_tx_ready() && USART0_CTS_get_level()) {;}
+				USART_0_write( msg[i] );
+			}
 			_delay_ms(1000);
 
 		}

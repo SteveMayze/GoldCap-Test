@@ -1,0 +1,127 @@
+7E 
+00 30 		Number of bytes in the transmission
+83 			16-bit addressing
+56 78 		16 Bit Address
+1D 			Signal Strength
+00 			Status bytes
+0A 			Number of samples
+02 0A 		Active input bytes
+
+
+        16 15 14 13 12 10  9  8    7  6  5  4  3  2  1  0
+		B7 B6 B5 B4 B3 B2 B1 B0 - B7 B6 B5 B4 B3 B2 B1 B0 
+		X  A5 A4 A3 A2 A1 A0 D8   D7 D6 D5 D4 D3 D2 D1 D0
+		0   0  0  0  0  0  1  0    0  0  0  0  1  0  1  0
+
+= Analog 0
+= Digital 1
+= Digital 3
+
+
+        16 15 14 13 12 10  9  8    7  6  5  4  3  2  1  0
+		B7 B6 B5 B4 B3 B2 B1 B0 - B7 B6 B5 B4 B3 B2 B1 B0 
+		X   X  X  X  X  X  X D8   D7 D6 D5 D4 D3 D2 D1 D0
+		0   0  0  0  0  0  0  0    0  0  0  0  1  0  0  0
+
+
+00 08
+01 DD = 0.57V
+
+00 08 
+01 DD
+
+00 08 
+01 DD 
+
+00 08 
+01 DD 
+
+00 08 
+01 DD 
+
+00 08 
+01 DD 
+
+00 08 
+01 DD 
+
+00 08 
+01 DD 
+
+00 08 
+01 DD 
+
+00 08 
+01 DD 
+
+7F 
+
+
+Manual trigger
+
+7E 
+00 1C 
+83 
+56 78 
+27 
+00 
+05 
+02 0A 
+
+00 08 
+01 5F 
+00 08 
+01 5F 
+00 08 
+01 60 
+00 08 
+01 60 
+00 08 
+01 60 
+6B 
+
+7E 
+00 0A 
+83 
+56 78 
+27 00 
+01 
+02 0A 
+00 00 
+7A 
+
+
+Triggered response
+7E 
+00 1C 
+83 
+56 78 
+22 
+00 
+05 
+02 0A 
+
+Second attempt
+00 00 
+01 78 
+00 00 
+01 76 
+00 00 
+01 76 
+00 00 
+01 76 
+00 00 
+01 76 
+26 
+
+Triggered response
+7E 
+00 0A
+83 
+56 78 
+22 
+00 
+01 
+02 0A 
+00 08 
+77 

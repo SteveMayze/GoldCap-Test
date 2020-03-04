@@ -9,6 +9,10 @@ Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "ADCBasicswithmegaAVR0-Serie
 EndProject
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Telemetry_01", "Telemetry_01\Telemetry_01.cproj", "{5BAA3FFD-DE38-4F68-AB47-20D194240473}"
 EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "XBee_Arduino", "ArduinoSketch1\XBee_Arduino\XBee_Arduino.cppproj", "{DF55ADE0-7247-446A-8EFF-BEBEF5A08A20}"
+EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "ArduinoCore", "ArduinoSketch1\ArduinoCore\ArduinoCore.cppproj", "{439F5B45-6922-4F03-9706-CC7D5FAEFD5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -27,6 +31,14 @@ Global
 		{5BAA3FFD-DE38-4F68-AB47-20D194240473}.Debug|AVR.Build.0 = Debug|AVR
 		{5BAA3FFD-DE38-4F68-AB47-20D194240473}.Release|AVR.ActiveCfg = Release|AVR
 		{5BAA3FFD-DE38-4F68-AB47-20D194240473}.Release|AVR.Build.0 = Release|AVR
+		{DF55ADE0-7247-446A-8EFF-BEBEF5A08A20}.Debug|AVR.ActiveCfg = Debug|AVR
+		{DF55ADE0-7247-446A-8EFF-BEBEF5A08A20}.Debug|AVR.Build.0 = Debug|AVR
+		{DF55ADE0-7247-446A-8EFF-BEBEF5A08A20}.Release|AVR.ActiveCfg = Release|AVR
+		{DF55ADE0-7247-446A-8EFF-BEBEF5A08A20}.Release|AVR.Build.0 = Release|AVR
+		{439F5B45-6922-4F03-9706-CC7D5FAEFD5F}.Debug|AVR.ActiveCfg = Debug|AVR
+		{439F5B45-6922-4F03-9706-CC7D5FAEFD5F}.Debug|AVR.Build.0 = Debug|AVR
+		{439F5B45-6922-4F03-9706-CC7D5FAEFD5F}.Release|AVR.ActiveCfg = Release|AVR
+		{439F5B45-6922-4F03-9706-CC7D5FAEFD5F}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
