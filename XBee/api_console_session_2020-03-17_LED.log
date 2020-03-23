@@ -1,0 +1,64 @@
+03-17-2020 18:24:21.980,-,API,"RED,0013A20041629BCE,802.15.4 TH,2003,COM11 - 9600/8/N/1/N,1"
+
+03-17-2020 18:23:25.891,0,RECV,7E0012820013A200415D58CB3D00010401000003FFC2
+03-17-2020 18:23:41.034,1,RECV,7E0012820013A200415D58CB350001040100010001CA
+
+
+RX (Receive) Packet 64-bit Address IO (API 1)
+
+7E 00 12 82 00 13 A2 00 41 5D 58 CB 2B 00 01 04 01 00 00 03 FF D4
+
+Start delimiter: 7E
+Length: 00 12 (18)
+Frame type: 82 (RX (Receive) Packet 64-bit Address IO)
+64-bit source address: 00 13 A2 00 41 5D 58 CB
+RSSI: 2B
+Options: 00
+Number of samples: 01
+Digital channel mask: 00 01
+Analog channel mask: 04 00
+DIO0/AD0 digital value: Low
+DIO1/AD1 analog value: 03 FF (1023)
+Checksum: D4
+
+
+
+====================================================================
+
+RX (Receive) Packet 64-bit Address IO (API 1)
+
+7E 00 12 82 00 13 A2 00 41 5D 58 CB 24 00 01 04 01 00 01 03 FF DA
+
+Start delimiter: 7E
+Length: 00 12 (18)
+Frame type: 82 (RX (Receive) Packet 64-bit Address IO)
+64-bit source address: 00 13 A2 00 41 5D 58 CB
+RSSI: 24
+Options: 00
+Number of samples: 01
+Digital channel mask: 00 01
+Analog channel mask: 04 00
+DIO0/AD0 digital value: High
+DIO1/AD1 analog value: 03 FF (1023)
+Checksum: DA
+
+RX (Receive) Packet 64-bit Address IO (API 1)
+
+7E 00 12 82 00 13 A2 00 41 5D 58 CB 28 00 01 04 01 00 00 03 AC 2A
+
+Start delimiter: 7E
+Length: 00 12 (18)
+Frame type: 82 (RX (Receive) Packet 64-bit Address IO)
+64-bit source address: 00 13 A2 00 41 5D 58 CB
+RSSI: 28
+Options: 00
+Number of samples: 01
+Digital channel mask: 00 01
+Analog channel mask: 04 00
+DIO0/AD0 digital value: Low
+DIO1/AD1 analog value: 03 AC (940)
+Checksum: 2A
+
+ 0x03AC  = 940 becomes (940/1024)*2.1 = 1.93V
+
+
