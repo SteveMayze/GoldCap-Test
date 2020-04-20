@@ -50,12 +50,12 @@ $EndComp
 $Comp
 L GoldCap:IRLML6401 Q2
 U 1 1 5E29D96F
-P 3300 2750
-F 0 "Q2" V 3643 2750 50  0000 C CNN
-F 1 "IRLML6401" V 3552 2750 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 3500 2675 50  0001 L CIN
-F 3 "" H 3300 2750 50  0001 L CNN
-	1    3300 2750
+P 3300 2300
+F 0 "Q2" V 3643 2300 50  0000 C CNN
+F 1 "IRLML6401" V 3552 2300 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3500 2225 50  0001 L CIN
+F 3 "" H 3300 2300 50  0001 L CNN
+	1    3300 2300
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -164,12 +164,7 @@ Connection ~ 2900 3450
 Wire Wire Line
 	2900 3450 3000 3450
 Wire Wire Line
-	3500 2650 4100 2650
-Wire Wire Line
-	4100 2650 4100 2850
-Wire Wire Line
 	4100 3600 4100 3750
-Connection ~ 4100 2650
 Wire Wire Line
 	11650 2850 11650 2350
 Wire Wire Line
@@ -189,11 +184,11 @@ F 3 "" H 11650 5050 50  0001 C CNN
 	1    11650 5050
 	1    0    0    -1  
 $EndComp
-Text Label 6350 2650 2    50   ~ 0
+Text Label 6350 2200 2    50   ~ 0
 VCC
 Text Label 11650 2350 2    50   ~ 0
 VCC
-Text Label 650  2650 0    50   ~ 0
+Text Label 650  2200 0    50   ~ 0
 VIN_3V3
 Wire Wire Line
 	12750 3650 12900 3650
@@ -213,7 +208,7 @@ Text Label 10000 3750 0    50   ~ 0
 XBEE_DIN
 Wire Wire Line
 	12750 4250 12950 4250
-Text Notes 1050 2250 0    50   ~ 0
+Text Notes 1050 1800 0    50   ~ 0
 Officially, the input voltage (i.e. Vb) could be from 10V to 18V.\nThis needs to be dropped down to 5V and then to 3V3.\n
 Text Notes 10750 6300 0    50   ~ 0
 The XBee sould be configured such that \n\nDID0 - Digital input with Change Interrupt enabled\nAD1 - Analogue input \nVREF - Configured for VIN_3V3. This will drop to zero\n            when the power fails.\n\nWhen the power fails, DID0 will change from 1 to 0 signalling \na send message for that digital input. The analogue will not be\n a part of that message. Since the VREF is zero, the value can \nnot be trusted anyhow.\n
@@ -367,16 +362,16 @@ F 3 "~" H 1050 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1050 2650 1050 2900
+	1050 2200 1050 2900
 Wire Wire Line
 	1050 3650 1050 3750
 Wire Wire Line
 	1050 4050 1050 4150
 Text Notes 1150 4150 0    50   ~ 0
 3V3 @ 5mA
-Connection ~ 1050 2650
+Connection ~ 1050 2200
 Wire Wire Line
-	1050 2650 650  2650
+	1050 2200 650  2200
 $Comp
 L Device:R R13
 U 1 1 5E337F89
@@ -420,23 +415,23 @@ Wire Wire Line
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 5E348B7A
-P 4350 2650
-F 0 "#FLG0103" H 4350 2725 50  0001 C CNN
-F 1 "PWR_FLAG" H 4350 2823 50  0000 C CNN
-F 2 "" H 4350 2650 50  0001 C CNN
-F 3 "~" H 4350 2650 50  0001 C CNN
-	1    4350 2650
+P 4350 2200
+F 0 "#FLG0103" H 4350 2275 50  0001 C CNN
+F 1 "PWR_FLAG" H 4350 2373 50  0000 C CNN
+F 2 "" H 4350 2200 50  0001 C CNN
+F 3 "~" H 4350 2200 50  0001 C CNN
+	1    4350 2200
 	1    0    0    -1  
 $EndComp
-Connection ~ 4350 2650
+Connection ~ 4350 2200
 Wire Wire Line
-	4350 2650 5600 2650
+	4350 2200 5600 2200
 Text Notes 3050 8450 0    50   ~ 0
 VREF should be a stable 3V3\nreference voltage\nXBee Digi Mesh does not use this!\nIt has a fixed reference of 1.2V. The analog\ninput will not read anything above 1.2V
 Text Notes 1400 7000 0    50   ~ 0
 3V3_IN is a 3V3 input voltage that can vary to \nzero.
 Wire Wire Line
-	1050 2650 1650 2650
+	1050 2200 1650 2200
 Text Label 2200 7350 0    50   ~ 0
 Vb
 Wire Wire Line
@@ -514,7 +509,7 @@ Connection ~ 4100 3100
 Wire Wire Line
 	4100 3100 4100 3300
 Wire Wire Line
-	3300 2950 3300 3100
+	3300 2500 3300 3100
 Wire Wire Line
 	3300 3650 3300 4200
 Wire Wire Line
@@ -635,8 +630,6 @@ $EndComp
 Wire Wire Line
 	8050 6500 8050 6600
 Wire Wire Line
-	4100 2650 4350 2650
-Wire Wire Line
 	8050 6200 8050 6100
 Wire Wire Line
 	8050 6100 7900 6100
@@ -724,17 +717,17 @@ The idea of the Zenner is to \nproctect the XBee from any Vb:2 greater\nthan 3V3
 $Comp
 L power:PWR_FLAG #FLG0106
 U 1 1 5E4507A6
-P 1650 2650
-F 0 "#FLG0106" H 1650 2725 50  0001 C CNN
-F 1 "PWR_FLAG" H 1650 2823 50  0000 C CNN
-F 2 "" H 1650 2650 50  0001 C CNN
-F 3 "~" H 1650 2650 50  0001 C CNN
-	1    1650 2650
+P 1650 2200
+F 0 "#FLG0106" H 1650 2275 50  0001 C CNN
+F 1 "PWR_FLAG" H 1650 2373 50  0000 C CNN
+F 2 "" H 1650 2200 50  0001 C CNN
+F 3 "~" H 1650 2200 50  0001 C CNN
+	1    1650 2200
 	1    0    0    -1  
 $EndComp
-Connection ~ 1650 2650
+Connection ~ 1650 2200
 Wire Wire Line
-	1650 2650 3100 2650
+	1650 2200 3100 2200
 $Comp
 L power:PWR_FLAG #FLG0107
 U 1 1 5E450F70
@@ -789,7 +782,7 @@ Wire Wire Line
 	8700 5300 8500 5300
 Connection ~ 8700 5300
 Wire Wire Line
-	5600 2850 5600 2650
+	5600 2850 5600 2200
 $Comp
 L power:GND #PWR0113
 U 1 1 5E6D34F8
@@ -881,8 +874,8 @@ ASSOCIATE
 Wire Wire Line
 	13250 4050 14150 4050
 Wire Wire Line
-	5600 2650 6350 2650
-Connection ~ 5600 2650
+	5600 2200 6350 2200
+Connection ~ 5600 2200
 $Comp
 L Jumper:SolderJumper_2_Bridged JP2
 U 1 1 5E73FF88
@@ -893,17 +886,6 @@ F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 13100 4050 50  
 F 3 "~" H 13100 4050 50  0001 C CNN
 	1    13100 4050
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x02_Male J5
-U 1 1 5E747E22
-P 4300 2850
-F 0 "J5" H 4272 2824 50  0000 R CNN
-F 1 "Goldcap" H 4272 2733 50  0000 R CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 4300 2850 50  0001 C CNN
-F 3 "~" H 4300 2850 50  0001 C CNN
-	1    4300 2850
-	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4100 2950 4100 3100
@@ -1060,4 +1042,22 @@ Wire Wire Line
 	14450 4050 15000 4050
 Wire Wire Line
 	14450 4250 14650 4250
+$Comp
+L Switch:SW_SPDT SW2
+U 1 1 5E784EE5
+P 4100 2750
+F 0 "SW2" V 4146 2562 50  0000 R CNN
+F 1 "Goldcap Enable" V 4055 2562 50  0000 R CNN
+F 2 "GoldCap-Check:SPST-CL-SB-12C01" H 4100 2750 50  0001 C CNN
+F 3 "~" H 4100 2750 50  0001 C CNN
+	1    4100 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3500 2200 4000 2200
+Wire Wire Line
+	4000 2550 4000 2200
+Connection ~ 4000 2200
+Wire Wire Line
+	4000 2200 4350 2200
 $EndSCHEMATC
