@@ -747,7 +747,7 @@
       (net 31 "Net-(R4-Pad2)"))
     (pad 1 thru_hole circle (at -2.5 -1.65) (size 1.7 1.7) (drill 0.8) (layers *.Cu *.Mask)
       (net 5 /VCC))
-    (model ${LOCAL3DMOD}/COPAL_CLSB12C01/CL-SB-12C-01.stp
+    (model ${LOCAL3DMOD}/provided/COPAL_CLSB12C01/CL-SB-12C-01.stp
       (offset (xyz 0 0 3.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 180))
@@ -776,10 +776,10 @@
       (net 26 /~RESET))
     (pad 1 smd rect (at -0.75 1.1) (size 0.95 1) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model "C:/Program Files/KiCad/share/kicad/modules/packages3d/Housings_SOT-23_SOT-143_TSOT-6.3dshapes/SOT-143.wrl"
+    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-143.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 -90))
     )
   )
 
@@ -823,7 +823,7 @@
       (net 28 "Net-(SW1-Pad2)"))
     (pad 2 smd rect (at 3.975 2.25 90) (size 1.55 1.3) (layers F.Cu F.Paste F.Mask)
       (net 28 "Net-(SW1-Pad2)"))
-    (model ${LOCAL3DMOD}/B3S-1000P.wrl
+    (model ${LOCAL3DMOD}/provided/B3S-1000P.wrl
       (offset (xyz -3 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -1155,7 +1155,7 @@
       (net 24 /ASSOCIATE))
     (pad 1 smd rect (at -1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KISYS3DMOD}/LEDs.3dshapes/LED_0805.wrl
+    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0805_2012Metric_Castellated.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1222,7 +1222,7 @@
       (net 8 /XBEE_DOUT))
     (pad 1 thru_hole circle (at -10.9982 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask F.SilkS)
       (net 5 /VCC))
-    (model "${LOCAL3DMOD}/User Library-XBee-Chip.WRL"
+    (model "${LOCAL3DMOD}/provided/User Library-XBee-Chip.WRL"
       (offset (xyz 0 -9.499599999999999 1.99898))
       (scale (xyz 395 395 395))
       (rotate (xyz -90 0 0))
@@ -1252,9 +1252,9 @@
       (net 19 /Vref))
     (pad 1 thru_hole circle (at 2.5 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 27 "Net-(R9-Pad2)"))
-    (model ${LOCAL3DMOD}/CT6EP103_Fc.wrl
-      (offset (xyz 0 0 5.75))
-      (scale (xyz 0.4 0.4 0.4))
+    (model ${ALT3DMOD}/provided/COPAL_CT6EP10k103/CT6EP103.stp
+      (offset (xyz 0 0 5.750559999999999))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -1370,8 +1370,13 @@
     (pad 1 thru_hole rect (at 0 0) (size 2.6 2.6) (drill 1.5) (layers *.Cu *.Mask)
       (net 3 "Net-(C2-Pad1)"))
     (model ${LOCAL3dMOD}/EECF5R5U474b.stp
-      (offset (xyz 2.5 0 0))
+      (offset (xyz 2.49936 0 0))
       (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${LOCAL3DMOD}/EECF5R5U474b.wrl
+      (offset (xyz 2.54 0 0))
+      (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
   )
@@ -1482,7 +1487,7 @@
       (net 6 "Net-(D1-Pad1)"))
     (pad 2 smd rect (at 1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 22 "Net-(D1-Pad2)"))
-    (model ${KISYS3DMOD}/LEDs.3dshapes/LED_0805.wrl
+    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0805_2012Metric_Castellated.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1566,10 +1571,10 @@
       (net 23 /ON))
     (pad 1 smd rect (at -1.1 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KISYS3DMOD}/LEDs.3dshapes/LED_0805.wrl
+    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0805_2012Metric_Castellated.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 180))
+      (rotate (xyz 0 0 0))
     )
   )
 
