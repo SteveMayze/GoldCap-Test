@@ -85,7 +85,6 @@ src/xbee/util
 # other files
 *.orig
 doc
-lib
 coverity
 
 # auto-generated files
