@@ -634,7 +634,7 @@ Wire Wire Line
 Wire Wire Line
 	8050 6100 7900 6100
 $Comp
-L Comparator:LMV331 U2
+L GoldCap-XBee-rescue:LMV331-Comparator U2
 U 1 1 5E37C886
 P 8800 6050
 F 0 "U2" H 9144 6096 50  0000 L CNN
@@ -750,7 +750,7 @@ Text Label 9300 4350 0    50   ~ 0
 ~BATT_LOW~
 Text Label 10150 4350 0    50   ~ 0
 SLEEP_REQ
-Text Notes 13250 3750 0    50   ~ 0
+Text Notes 13650 3750 0    50   ~ 0
 The analog inputs will not read \nanything above 1.2V
 Wire Wire Line
 	9100 6050 9500 6050

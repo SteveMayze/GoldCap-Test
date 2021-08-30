@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name GoldCap)(type Legacy)(uri ${KIPRJMOD}/../lib/GoldCap.lib)(options "")(descr ""))
   (lib (name XBee-Adapter)(type Legacy)(uri ${KIPRJMOD}/../lib/XBee-Adapter.lib)(options "")(descr ""))
+  (lib (name GoldCap-XBee-rescue)(type Legacy)(uri ${KIPRJMOD}/GoldCap-XBee-rescue.lib)(options "")(descr ""))
 )

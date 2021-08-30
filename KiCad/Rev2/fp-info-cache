@@ -1,4 +1,4 @@
-249235845433543
+257644436621543
 Air_Coils_SML_NEOSID
 Neosid_Air-Coil_SML_1turn_HDM0131A
 
@@ -197,8 +197,8 @@ AAA battery cell holder
 2
 Battery
 BatteryHolder_Keystone_2479_3xAAA
-3xAAA cell battery holder, Keystone P/N 2479, http://www.keyelco.com/product-pdf.cfm?p=1041
-AAA battery cell holder
+Keystone Battery Holder, 2479, Battery Type 3xAAA (Script generated with StandardBox.py) (Keystone Battery Holder, 2479, Battery Type 3xAAA)
+Keystone Battery Holder 2479 Battery Type 3xAAA
 0
 2
 2
@@ -209,6 +209,13 @@ Keystone type 2993 negative battery contact
 0
 1
 1
+Battery
+BatteryHolder_Keystone_2998_1x6.8mm
+www.keyelco.com/product-pdf.cfm?p=763
+Keystone type 2998 battery holder
+0
+3
+2
 Battery
 BatteryHolder_Keystone_3000_1x12mm
 http://www.keyelco.com/product-pdf.cfm?p=777
@@ -257,6 +264,13 @@ SMT battery holder for CR1216/1220/1225, https://linxtechnologies.com/wp/wp-cont
 battery holder coin cell cr1216 cr1220 cr1225
 0
 3
+2
+Battery
+BatteryHolder_MPD_BA9VPC_1xPP3
+1xPP3 (9V) battery holder, Memory Protection Devices P/N BA9VPC, http://www.memoryprotectiondevices.com/datasheets/BA9VPC-datasheet.pdf
+PP3 Battery Holder BA9VPC 9V
+0
+2
 2
 Battery
 BatteryHolder_MPD_BC2AAPC_2xAA
